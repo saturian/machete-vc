@@ -1,455 +1,521 @@
-name : English
+name : Uzbek
 
 # General Strings
-general_1 : "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ."
-general_2 : "ᴇʀʀᴏʀ ! ᴡʀᴏɴɢ ᴜsᴀɢᴇ ᴏꜰ ᴄᴏᴍᴍᴀɴᴅ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-general_3 : "sᴏᴍᴇ **ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ** ᴡʜɪʟᴇ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ǫᴜᴇʀʏ.\n\nᴇxᴄᴇᴘᴛɪᴏɴ ᴛʏᴘᴇ:- {0}"
-general_4 : "ʏᴏᴜ'ʀᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ɢʀᴏᴜᴘ !\nʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ ꜰᴏʀ ᴀᴅᴍɪɴ ʀɪɢʜᴛs."
-general_5 : "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴀᴅᴍɪɴ ᴡɪᴛʜ **ᴍᴀɴᴀɢᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ** ʀɪɢʜᴛs ᴛᴏ ᴘᴇʀꜰᴏʀᴍ ᴛʜɪs ᴀᴄᴛɪᴏɴ​."
-general_6 : "ʙᴏᴛ ɪsɴ'ᴛ sᴛʀᴇᴀᴍɪɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
+general_1 : "Foydalanuvchi xabariga \"reply\" qiling yoki ID va usernamedan birini yuboring"
+general_2 : "Buyruqda xatolik!"
+general_3 : "So'rovni bajarishda xatolik, qayta urunib ko'ring!"
+general_4 : "Siz anonim adminsiz. Iltimos haqiqiy hisobingizga qayting!"
+general_5 : "Bu buyruqni boshqarish uchun - Ovozli chatni boshqarish imkoni bilan admin bo'lishingiz kerak!"
+general_6 : "Bot video chatda emas!"
 
 # Classes - Telegram.py
-tg_1 : "ʙᴏᴛ ɪs **ᴏᴠᴇʀʟᴏᴀᴅᴇᴅ** ᴡɪᴛʜ ᴅᴏᴡɴʟᴏᴀᴅs ʀɪɢʜᴛ ɴᴏᴡ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\n**ᴛʀʏ ᴀꜰᴛᴇʀ:** {0} (__ᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ__)"
-tg_2 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍʏ ʟᴏᴠᴇ ​🌹​."
+tg_1 : "Bot katta bosim ostida ​🌹​.\n\n**Keyinroq urunib ko'ring** {0} (__ᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ__)"
+tg_2 : "Mediani yuklash imkoni bo'lmadi!"
 
 # Core - Call.py
-call_1 : "ʙᴏᴛ ʀᴇǫᴜɪʀᴇs **ᴀᴅᴍɪɴ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\nᴅɪsᴀʙʟᴇ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏᴍᴏᴅᴇ ᴠɪᴀ : /playmode"
-call_2 : "ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴍʏ ʟᴏᴠᴇ ​🌹​, ᴘʟᴇᴀsᴇ ᴜɴʙᴀɴ.\n\n**ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀɴᴀᴍᴇ:** @{0}\n**ᴀssɪsᴛᴀɴᴛ ɪᴅ:** {1}"
-call_3 : "ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ ᴡʜɪʟᴇ ɪɴᴠɪᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\n**ʀᴇᴀsᴏɴ**: {0}"
-call_4 : "ʙᴏᴛ ʀᴇǫᴜɪʀᴇs **ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴠɪᴀ ʟɪɴᴋ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-call_5 : "ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴡɪʟʟ ʙᴇ ᴊᴏɪɴɪɴɢ ɪɴ 5 sᴇᴄᴏɴᴅs, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
-call_6 : "ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ [{0}] ᴊᴏɪɴᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\nsᴛᴀʀᴛɪɴɢ ᴍᴜsɪᴄ ɴᴏᴡ"
-call_7 : "**ʜᴀʀᴍꜰᴜʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛ ɢɪᴠᴇɴ **\n\nᴘʟᴇᴀsᴇ ʀᴇᴍᴏᴠᴇ **ʙᴀɴ ᴜsᴇʀs** ʀɪɢʜᴛs ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-call_8 : "**ʜᴀʀᴍꜰᴜʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛ ɢɪᴠᴇɴ **\n\nᴘʟᴇᴀsᴇ ʀᴇᴍᴏᴠᴇ **ᴀᴅᴅ ɴᴇᴡ ᴀᴅᴍɪɴs** ʀɪɢʜᴛs ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-call_9 : "**ꜰᴀɪʟᴇᴅ ᴛᴏ sᴡɪᴛᴄʜ sᴛʀᴇᴀᴍ**\nᴘʟᴇᴀsᴇ ᴜsᴇ /sᴋɪᴘ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʀᴀᴄᴋ ᴀɢᴀɪɴ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-call_10 : "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ɴᴇxᴛ ᴛʀᴀᴄᴋ ꜰʀᴏᴍ ᴘʟᴀʏʟɪsᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​"
-call_11 : "ᴘʟᴇᴀsᴇ ᴀᴅᴅ @{0} ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ​[ ID: {1}].\n\nʙᴏᴛ ɪs ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ɢᴇᴛ ᴄʜᴀɴɴᴇʟ ᴅᴇᴛᴀɪʟs​."
+call_1 : "Bot yordamchi botni chatga chaqirishi uchun to'liq admin bo'lishi kerak!\n\n/playmode buyrug'i bilan kanalda faoliyatni to'xtatishingiz mumkin!"
+call_2 : "Yordamchi kanal/guruhingizda banda. Iltimos bandan chiqaring!\n\n**Yordamchi username:** @{0}\n**Yordamchi ID:** {1}"
+call_3 : "Yordamchini taklif qilishda xatolik yuz berdi​.\n\n**Sabab**: {0}"
+call_4 : "Bot yordamchini chaqirish uchun foydalanuvchini havola orqali taklif qilish imkoniyatiga ega bo'lishi kerak!"
+call_5 : "Yordamchi 5 soniyada chatga qo'shiladi iltimos kuting..."
+call_6 : "Yordamchi [{0}] muvaffaqiyatli qo'shildi​.\n\nMusiqa boshlandi..."
+call_7 : "**NICE NIGGA**"
+call_8 : "**NICE NIGGA**"
+call_9 : "**Strimni o'zgartirishda xatolik**\nIltimos /skip buyrug'ini ishlating​."
+call_10 : "Pleylistagi keyingi musiqa yuklab olish boshlandi...​"
+call_11 : "Iltimos @{0} ni kanalingizga qo'shing​[ ID: {1}].\n\nBot kanal malumotlarini ololmaydi!!!"
 
 # PLUGINS - Auth.py
-auth_1 : "ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ʜᴀᴠᴇ 20 ᴜsᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ (ᴀᴜʟ) ᴍʏ ʟᴏᴠᴇ ​🌹​"
-auth_2 : "ᴀᴅᴅᴇᴅ ᴛᴏ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴏꜰ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-auth_3 : "ᴀʟʀᴇᴀᴅʏ ɪɴ ᴛʜᴇ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-auth_4 : "ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴏꜰ ᴛʜɪs ɢʀᴏᴜᴘ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-auth_5 : "ᴛᴀʀɢᴇᴛᴇᴅ ᴜsᴇʀ ɪs ɴᴏᴛ ᴀɴ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-auth_6 : "ꜰᴇᴛᴄʜɪɴɢ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs...ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​ !"
-auth_7 : "**ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ[ᴀᴜʟ]:**\n\n"
-auth_8 : "┗ ᴀᴅᴅᴇᴅ ʙʏ:-"
+auth_1 : "Guruhda 20 tagacha AUL(Avtorizatsiya qilingan) foydalanuvchilari bolishi mumkin​"
+auth_2 : "AUL(Avtorizatsiya qilingan) foydalanuvchi qo'shildi..."
+auth_3 : "Foydalanuvchi avvaldan AUL(Avtorizatsiya foydalanuvchilar) qatorida"
+auth_4 : "Foydalanuvchi AUL(Avtorizatsiya qilingan) lar qatoridan olib tashlandi!"
+auth_5 : "Belgilangan foydalnuvchi AUL(Avtorizatsiya qilingan) lar qatorida emas!"
+auth_6 : "AUL(Avtorizatsiya qilingan) foydalanuvchilar ro'yxati tayyorlanmoqda..."
+auth_7 : "**Avtorizatsiya qilingan foydalanuvchilar[ᴀᴜʟ]:**\n\n"
+auth_8 : "┗ tomonidan:-"
 
 # PLUGINS - Admins
-admin_1 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴀʟʀᴇᴀᴅʏ ᴘᴀᴜsᴇᴅ** ʙʏ\n┗━━━ sᴏᴍᴇᴏɴᴇ ​!"
-admin_2 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴘᴀᴜsᴇᴅ** ʙʏ\n┗━━━ {} ​!"
-admin_3 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴀʟʀᴇᴀᴅʏ ʀᴇsᴜᴍᴇᴅ** ʙʏ\n┗━━━ sᴏᴍᴇᴏɴᴇ ​!"
-admin_4 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ʀᴇsᴜᴍᴇᴅ** ʙʏ\n┗━━━ {} ​!"
-admin_5 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴀʟʀᴇᴀᴅʏ ᴍᴜᴛᴇᴅ** ʙʏ\n┗━━━ sᴏᴍᴇᴏɴᴇ ​!"
-admin_6 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Frienfs_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴍᴜᴛᴇᴅ** ʙʏ\n┗━━━ {} ​!"
-admin_7 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴀʟʀᴇᴀᴅʏ ᴜɴᴍᴜᴛᴇᴅ** ʙʏ\n┗━━━ sᴏᴍᴇᴏɴᴇ ​!"
-admin_8 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : **ᴜɴᴍᴜᴛᴇᴅ** ʙʏ\n┗━━━ {} ​!"
-admin_9 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : ᴇɴᴅᴇᴅ ʙʏ\n┗━━━ {} ​!"
-admin_10 : "🌹 ᴠᴏɪᴄᴇᴄʜᴀᴛ ᴄᴏɴᴛʀᴏʟᴇ ᴅᴇᴛᴀɪʟ ɪᴢ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Team_support)\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴏᴘ_Qᴜᴇᴇɴ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ᴠᴄ ɪᴢ › : sᴋɪᴘᴘᴇᴅ ʙʏ\n┗━━━ {} ​!"
-admin_11 : "ᴇʀʀᴏʀ ᴡʜɪʟᴇ ᴄʜᴀɴɢɪɴɢ sᴛʀᴇᴀᴍ ᴛᴏ **{0}** ᴍʏ ʟᴏᴠᴇ ​🌹\n\nᴘʟᴇᴀsᴇ ᴜsᴇ /skip ᴀɢᴀɪɴ."
-admin_12 : "ᴜɴᴀʙʟᴇ ᴛᴏ sᴋɪᴘ ᴛᴏ ᴀ sᴘᴇᴄɪꜰɪᴄ ᴛʀᴀᴄᴋ ʙᴇᴄᴀᴜsᴇ ᴏꜰ ᴇɴᴀʙʟᴇᴅ **ʟᴏᴏᴘ ᴘʟᴀʏ**. ᴘʟᴇᴀsᴇ ᴅɪsᴀʙʟᴇ ʟᴏᴏᴘ ᴘʟᴀʏ ᴠɪᴀ `/loop disable` ᴛᴏ ᴜsᴇ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-admin_13 : "ᴘʟᴇᴀsᴇ ᴜsᴇ ɴᴜᴍᴇʀɪᴄ ɴᴜᴍʙᴇʀs ꜰᴏʀ sᴘᴇᴄɪꜰɪᴄ ᴛʀᴀᴄᴋs ᴍʏ ʟᴏᴠᴇ ​🌹​, ʟɪᴋᴇ 1, 2 ᴏʀ ᴇᴛᴄ"
-admin_14 : "ᴀᴛʟᴇᴀsᴛ 2 ᴛʀᴀᴄᴋs ɴᴇᴇᴅᴇᴅ ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ sᴋɪᴘ ᴛᴏ ᴀ sᴘᴇᴄɪꜰɪᴄ ɴᴜᴍʙᴇʀ ᴍʏ ʟᴏᴠᴇ ​🌹​. ᴄʜᴇᴄᴋ ǫᴜᴇᴜᴇ ʙʏ /queue"
-admin_15 : "ɴᴏᴛ ᴇɴᴏᴜɢʜ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ꜰᴏʀ ᴛʜᴇ ᴠᴀʟᴜᴇ ɢɪᴠᴇɴ ʙʏ ʏᴏᴜ ᴍʏ ʟᴏᴠᴇ ​🌹​. ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ɴᴜᴍʙᴇʀs ʙᴇᴛᴡᴇᴇɴ 1 ᴀɴᴅ {0}"
-admin_16 : "ꜰᴀɪʟᴇᴅ ᴛᴏ sᴋɪᴘ ᴛᴏ sᴘᴇᴄɪꜰɪᴄ ᴛʀᴀᴄᴋ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\nᴄʜᴇᴄᴋ ʟᴇꜰᴛ ǫᴜᴇᴜᴇ ʙʏ /queue"
-admin_17 : "{0}...ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴍʏ ʟᴏᴠᴇ ​🌹​!"
-admin_18 : "ᴀᴅᴍɪɴ ʟɪsᴛ ɴᴏᴛ ꜰᴏᴜɴᴅ ᴍʏ ʟᴏᴠᴇ ​🌹​\n\nᴘʟᴇᴀsᴇ ʀᴇʟᴏᴀᴅ ᴀᴅᴍɪɴʟɪsᴛ ᴠɪᴀ /admincache ᴏʀ /reload"
-admin_19 : "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴀᴅᴍɪɴ ᴡɪᴛʜ **ᴍᴀɴᴀɢᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ** ʀɪɢʜᴛs ᴛᴏ ᴘᴇʀꜰᴏʀᴍ ᴛʜɪs ᴍʏ ʟᴏᴠᴇ ​🌹​.\nɪꜰ ʏᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴍɪɴ, ʀᴇʟᴏᴀᴅ ᴀᴅᴍɪɴᴄᴀᴄʜᴇ ᴠɪᴀ /adminncache "
-admin_20 : "ᴀᴅᴍɪɴ ᴄᴀᴄʜᴇ ʀᴇʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴍʏ ʟᴏᴠᴇ ​🌹​."
-admin_21 : "ɴᴏᴛʜɪɴɢ ɪɴsɪᴅᴇ ǫᴜᴇᴜᴇ ᴛᴏ sʜᴜꜰꜰʟᴇ ᴍʏ ʟᴏᴠᴇ ​🌹​"
-admin_22 : "ꜰᴀɪʟᴇᴅ ᴛᴏ sʜᴜꜰꜰʟᴇ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\nᴄʜᴇᴄᴋ ǫᴜᴇᴜᴇ : /queue"
-admin_23 : "**ǫᴜᴇᴜᴇ sʜᴜꜰꜰʟᴇᴅ ʙʏ {0} ᴍʏ ʟᴏᴠᴇ ​🌹​**\n\nᴄʜᴇᴄᴋ sʜᴜꜰꜰʟᴇᴅ ǫᴜᴇᴜᴇ : /queue"
-admin_24 : "**ᴜsᴀɢᴇ:**\n/loop [enable/disable] or [ɴᴜᴍʙᴇʀ ʙᴇᴛᴡᴇᴇɴ 1-10]\n\n**ᴇxᴀᴍᴘʟᴇ:** /loop 5"
-admin_25 : "ʟᴏᴏᴘ ᴇɴᴀʙʟᴇᴅ ʙʏ {0} ᴍʏ ʟᴏᴠᴇ ​🌹​ ꜰᴏʀ **{1}** ᴛɪᴍᴇs. ʙᴏᴛ ᴡɪʟʟ ɴᴏᴡ ʀᴇᴘᴇᴀᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ꜰᴏʀ **{1}** ᴛɪᴍᴇs ᴍʏ ʟᴏᴠᴇ ​🌹​"
-admin_26 : "ᴘʟᴇᴀsᴇ ᴜsᴇ ɴᴜᴍʙᴇʀs ʙᴇᴛᴡᴇᴇɴ 1-10 ꜰᴏʀ ʟᴏᴏᴘ ᴘʟᴀʏ ᴍʏ ʟᴏᴠᴇ ​🌹​"
-admin_27 : "ʟᴏᴏᴘ ᴘʟᴀʏ ʜᴀs ʙᴇᴇɴ ᴅɪsᴀʙʟᴇᴅ ᴍʏ ʟᴏᴠᴇ ​🌹​"
-admin_28 : "**ᴜsᴀɢᴇ:**\n/seek ᴏʀ /seekback [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs]"
-admin_29 : "ᴩʟᴇᴀsᴇ ᴜsᴇ ɴᴜᴍʙᴇʀ ғᴏʀ sᴇᴇᴋɪɴɢ ɪɴ sᴇᴄᴏɴᴅs."
-admin_30 : "sᴏʀʀʏ ʙᴜᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ sᴇᴇᴋ ᴛʜᴇ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ, ɪᴛ ᴄᴀɴ ᴏɴʟʏ ʙᴇ sᴋɪᴩᴩᴇᴅ ᴏʀ sᴛᴏᴩᴩᴇᴅ."
-admin_31 : "ʙᴏᴛ ɪs ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ sᴇᴇᴋ ʙᴇᴄᴀᴜsᴇ ᴏғ ʜɪɢʜ ᴅᴜʀᴀᴛɪᴏɴ ɢɪᴠᴇɴ. ᴛʀʏ sᴇᴇᴋɪɴɢ ᴡɪᴛʜ ʟᴏᴡᴇʀ ᴅᴜʀᴀᴛɪᴏɴ ᴀɴᴅ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ᴀ ᴛɪᴍᴇ ᴏғ 10sᴇᴄ ɪs ʟᴇғᴛ ᴀғᴛᴇʀ sᴇᴇᴋɪɴɢ.\n\nᴩʟᴀʏɪɴɢ** {0}** ᴍɪɴs ᴏᴜᴛ ᴏғ **{1}** ᴍɪɴs"
-admin_32 : "sᴇᴇᴋɪɴɢ..."
-admin_33 : "sᴇᴇᴋᴇᴅ ᴛᴏ {0} ᴍɪɴs"
-admin_34 : "ғᴀɪʟᴇᴅ ᴛᴏ sᴇᴇᴋ."
+admin_1 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Allaqachon pauza qilingan** "
+admin_2 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Pauza qilingan** \n┗━━━ {} ​!"
+admin_3 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Allaqachon boshlangan** "
+admin_4 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Boshlandi** ʙʏ\n┗━━━ {} ​!"
+admin_5 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Allaqachon mute qilingan** "
+admin_6 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Mute qilindi** ʙʏ\n┗━━━ {} ​!"
+admin_7 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Allaqachon mutedan olingan** "
+admin_8 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : **Mutedan olindi** ʙʏ\n┗━━━ {} ​!"
+admin_9 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : Kim tomonidan tugatildi\n┗━━━ {} ​!"
+admin_10 : "Ovozli chat boshqaruvi haqida to'liq malumotlar quyidagi kanalda berilgan ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Yangiliklar › : [Machete news](https://t.me/machetevcnews)\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcchat)\n┣★ Machete › : [Dizayner](https://t.me/ozbenigga)\n┣★ Ovozli chat › : Kim skip qildi \n┗━━━ {} ​!"
+admin_11 : "Strimni **{0}** ga o'zgartirishda muammo yuzaga keldi!\n\nIltimos /skip buyrug'idan foydalaning!"
+admin_12 : "Mediani o'tkazib yuborib bo'lmadi! chunki **ʟᴏᴏᴘ ᴘʟᴀʏ**.(Qayta ijro etish) funksiyasi yoniq! Iltimos `/loop disable` buyrug'i orqali o'chiring!"
+admin_13 : "Iltimos raqamlardan foydalaning!"
+admin_14 : "/queue buyrug'idan foydalanish uchun kamida navbatda 2 ta media bo'lishi shart!"
+admin_15 : "Siz bergan raqamda media topilmadi iltimos 1 va {0} oralig'idagi sonlardan foydalaning!"
+admin_16 : "Trekni o'tkazib yuborishda xato!​.\n\nIltimos /queue buyrug'i orqali navbatni tekshiring!"
+admin_17 : "{0}...Iltimos kuting"
+admin_18 : "Adminlar ro'yxati topilmadi​\n\nIltimos /admincache yoki /reload buyrug'i orqali adminlar ro'yxatini yangilang!"
+admin_19 : "Siz bu buyruqdan foydalanish uchun **Ovozli chatni boshqarish** huquqiga ega bo'lishingiz kerak!\nAgar shunday bo'lsa /admincache orqali adminlarni qayta yuklang!"
+admin_20 : "Adminlar qayta yuklandi!"
+admin_21 : "Aralashtirish uchun navbat mavjud emas​"
+admin_22 : "Aralashtirib bo'lmadi!\n\nQuyidagi buyruq orqali navbatni tekshiring : /queue"
+admin_23 : "**Navbat {0} tomonidan aralashtirildi...​**\n\nAralashgan tarkibni ko'rish : /queue"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+admin_24 : "**Ishlatilinishi:**\n/loop [enable/disable] yoki [1-10 orali'gida.]\n\n**Masalan:** /loop 5"
+admin_25 : "Sikl {0}​ tomonidan to'xtatildi. **{1}** marta takrorlaydi. Bot ovozli chatda ijro etialyotgan musiqani  **{1}** marta takrorlaydi!​"
+admin_26 : "Siklni boshlash uchun 1-10 oralig'ida raqam kiriting!​"
+admin_27 : "Sikl o'chirildi!​"
+admin_28 : "**Foydalanilishi:**\n/seek yoki /seekback [Davomiyligi (sekundda)]"
+admin_29 : "Sekund ichida qidirish uchun raqamdan foydalaning!"
+admin_30 : "Kechirasiz siz qidira olamysiz , uni fdaqat o'tkazib yuborish yoki to'xtatish mumkin."
+admin_31 : "Bot uzoq vaqt berilgani uchun qidira olmaydi, kamroq vaqt bilan izlashga harakat qiling va 10sekund vaqt qolganini unutmang.\n\nIjro etilmoqda** {0}** ᴍɪɴs ᴏᴜᴛ ᴏғ **{1}** Daqiqa"
+admin_32 : "O'tilmoqda..."
+admin_33 : "{0} daqiqaga o'tildi"
+admin_34 : "O'tkizib bo'lmadi."
 
 # Bot 
 
 # Start
-start_1 : "ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {0}.\n{1} ᴄᴀɴ ɴᴏᴡ ᴩʟᴀʏ sᴏɴɢs ɪɴ ᴛʜɪs ᴄʜᴀᴛ.\n\nғᴏʀ ɢᴇᴛᴛɪɴɢ ᴀɴʏ ᴛʏᴩᴇ ᴏғ ʜᴇʟᴩ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴏᴜʀ sᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ."
-start_2 : "━━━━━━━━━━━━━━━━━━━━━━━━\n\n💥 ʜᴇʟʟᴏ, ᴍᴇ ɪs Qᴜᴇᴇɴ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ\nʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴄʀᴇᴀᴛᴇʀ    : [𝐃𝐚𝐧𝐠𝐞𝐫 Choudhary](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ sᴇʀᴠᴇʀ](https://t.me/QN_Bot_Updates)┓\n┣★ sᴜᴘᴘᴏʀᴛ › : [Qᴜᴇᴇɴ ᴄʜᴀᴛ](https://t.me/QN_Team_support)\n┣★ Qᴜᴇᴇɴ_ɴᴇᴛᴡᴏʀᴋ › : [ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Friends_Chatting)\n┣★ ʜᴇʟᴘ › : ɴᴇᴇᴅ ʜᴇʟᴘ ʀᴜɴ /help\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/D4nGeR_0pBolte) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━"
-start_3 : "ʜᴇʏ,\n  ᴛʜɪs ɪs {0}\n\nᴀ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.\n\nᴀssɪsᴛᴀɴᴛ ᴜsᴇʀɴᴀᴍᴇ:- @{1}\nᴀssɪsᴛᴀɴᴛ ɪᴅ:- {2}"
-start_4 : "ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ {0}, [{1}] ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ʏᴏᴜʀ ᴄʜᴀᴛ."
-start_5 : "ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀ ᴏғ {0}, [{1}] ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ʏᴏᴜʀ ᴄʜᴀᴛ."
-start_6 : "🦸 **sᴜᴘᴇʀɢʀᴏᴜᴘ ɴᴇᴇᴅᴇᴅ** 🦸\n\nᴘʟᴇᴀsᴇ ᴄᴏɴᴠᴇʀᴛ ʏᴏᴜʀ **ɢʀᴏᴜᴘ** ᴛᴏ **sᴜᴘᴇʀɢʀᴏᴜᴘ** ᴀɴᴅ ᴛʜᴇɴ ᴀᴅᴅ ᴍᴇ ʙᴀᴄᴋ.\n\n**ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ sᴜᴘᴇʀɢʀᴏᴜᴘ ?**\n🥱 ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴄʜᴀᴛ ʜɪsᴛᴏʀʏ **ᴠɪsɪʙʟᴇ** ᴏɴᴄᴇ."
-start_7 : "**ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ**\n\nᴛʜɪs ᴄʜᴀᴛ ɪs ʙʟᴀᴄᴋʟɪsᴛ ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ. ʀᴇǫᴜᴇsᴛ ᴀ sᴜᴅᴏ ᴜsᴇʀ ᴛᴏ ᴡʜɪᴛᴇʟɪsᴛ ʏᴏᴜʀ ᴄʜᴀᴛ, sᴜᴅᴏ ᴜsᴇʀs [ʟɪsᴛ]({0}) , ᴇʟsᴇ ғᴜ*ᴋ ᴏғғ."
+start_1 : "Guruhga qo'shganingiz uchun raxmat {0}.\n{1} Endi bu chatda qo'shiq ijro etishi mumkin.\n\nQandaydur savollaringiz bo'lsa siz bizning qo'llab-quvvatlash guruhimizga qo'shilishingiz mumkin."
+start_2 : "━━━━━━━━━━━━━━━━━━━━━━━━\n\n💥Salom, bu macheteVCbot\ntelegram guruhda musiqa qo'yish uchun bot..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Dasturchi   : [machete](https://t.me/vermino)\n┣★ Yangiliklar › : [Machete news](https://t.me/macheteVCnews)┓\n┣★ Qo'llab quvvatlash › : [machete chat](https://t.me/machetevcnews)\n┣★ Dizayner › : [Dizayner](https://t.me/ozbenigga)\n┣★ Qo'llanma › : Yordam kerkak bo;lsa quyadgi komandani bosing. /help\n┗━━━━━━━━━━━━━━━━━┛\n\nAgar bot bo'yicha savollaringiz bo'lsa\nYozishingiz mumkin [machete](https://t.me/ozbenigga) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━"
+start_3 : "Salom,\n  bu bot {0}\n\nAjoyib funksiyalarga ega tezkor va kuchli music player bot.\n\nYordamchi username:- @{1}\nYordamchi idsi:- {2}"
+start_4 : "{0}, egasi  [{1}] chatingizga qo'shildi."
+start_5 : "{0}, admin foydalanuvchisi  [{1}] chatingizga qo'shildi."
+
+
+
+
+
+
+start_6 : "🦸 **Guruh yozishmalar tarixi ochiq bo'lishi kerak** 🦸"
+start_7 : "**Qora ro'yxatga kiritlgan chat**\n\nbu chat botdan foydalanish uchun qora ro'yxatga kiritilgan. [List]({0}) , yoki xayr."
 
 # Help
-help_1 : "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.\nᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ @D4nGeR_0pBolte\n\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : `/` **ᴘᴏᴡʀᴇᴅ © ʙʏ** @ABOUT_CHOUDHARY, @QN_Team_support @QN_Bot_Updates @The_Friends_Chatting"
-help_2 : "• ʜᴇʟᴩ •"
+help_1 : "Yordam olmoqchi bo'lgan ketgoriyangizni tanlang.\nSavollaringizni so'rang @macheteVCchat\n\nBracha buyruqlar `/` bilan ishlatilishi mumkin **Powered © by** @ozbenigga"
+help_2 : "Qo'llanma"
 
 # Settings
-setting_1 : "⚙️ **ᴍᴜsɪᴄ ʙᴏᴛ sᴇᴛᴛɪɴɢs**\n\n🌹**ɢʀᴏᴜᴘ:** {0}\n🌹**ɢʀᴏᴜᴘ ɪᴅ:** `{1}`\n\n🌹**ᴄʜᴏᴏsᴇ ᴛʜᴇ ꜰᴜɴᴄᴛɪᴏɴ ʙᴜᴛᴛᴏɴs ꜰʀᴏᴍ ʙᴇʟᴏᴡ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴇᴅɪᴛ ᴏʀ ᴄʜᴀɴɢᴇ.**"
-setting_3 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\n1) ᴅɪʀᴇᴄᴛ: ᴘʟᴀʏs sᴇᴀʀᴄʜ ǫᴜᴇʀɪᴇs ᴅɪʀᴇᴄᴛʟʏ. ᴜsᴇ -ᴠ ᴛᴏ ᴘʟᴀʏ ᴠɪᴅᴇᴏs ɪɴ ᴅɪʀᴇᴄᴛ ᴍᴏᴅᴇ.\n\n2) ɪɴʟɪɴᴇ: ʀᴇᴛᴜʀɴs ɪɴʟɪɴᴇ ᴍᴀʀᴋᴜᴘ ʙᴜᴛᴛᴏɴs ꜰᴏʀ ᴄʜᴏᴏsɪɴɢ ʙᴇᴛᴡᴇᴇɴ ᴠɪᴅᴇᴏ & ᴀᴜᴅɪᴏ."
-setting_4 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\n🦸 ᴇᴠᴇʀʏᴏɴᴇ: ᴀɴʏᴏɴᴇ ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs(sᴋɪᴘ, ᴘᴀᴜsᴇ, ʀᴇsᴜᴍᴇ ᴇᴛᴄ) ᴘʀᴇsᴇɴᴛ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.\n\n🥷 ᴀᴅᴍɪɴ ᴏɴʟʏ: ᴏɴʟʏ ᴀᴅᴍɪɴs ᴀɴᴅ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs."
-setting_5 : "ɴᴏ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs ꜰᴏᴜɴᴅ.\n\nʏᴏᴜ ᴄᴀɴ ᴀʟʟᴏᴡ ᴀɴʏ ɴᴏɴ-ᴀᴅᴍɪɴ ᴛᴏ ᴜsᴇ ᴍʏ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ʙʏ /auth ᴀɴᴅ ᴅᴇʟᴇᴛᴇ ʙʏ ᴜsɪɴɢ /unauth"
-setting_9 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\nᴡʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ, ʙᴏᴛ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ɪᴛs ᴍᴇssᴀɢᴇ ᴀꜰᴛᴇʀ {0} ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ᴄʟᴇᴀɴ ᴀɴᴅ ᴄʟᴇᴀʀ."
-setting_10 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\n1) ɢʀᴏᴜᴘ: ᴘʟᴀʏs ᴍᴜsɪᴄ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ɪs ɢɪᴠᴇɴ.\n\n2) ᴄʜᴀɴɴᴇʟ: ᴘʟᴀʏs ᴍᴜsɪᴄ ɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ʏᴏᴜ ᴡᴀɴᴛ. sᴇᴛ ᴄʜᴀɴɴᴇʟ ɪᴅ ᴠɪᴀ /channelplay"
-setting_11 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\n1) ᴇᴠᴇʀʏᴏɴᴇ: ᴀɴʏᴏɴᴇ ᴘʀᴇsᴇɴᴛ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ʜᴇʀᴇ.\n\n2) ᴀᴅᴍɪɴ ᴏɴʟʏ: ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴘʟᴀʏ ᴛʜᴇ ᴍᴜsɪᴄ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ."
-setting_12 : "🤷‍♀️ ʏᴏᴜ'ᴠᴇ ɴᴏ ᴄʜᴀɴɴᴇʟ ɪᴅ ᴅᴇꜰɪɴᴇᴅ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴍᴏᴅᴇ. ᴘʟᴇᴀsᴇ ᴅᴇꜰɪɴᴇ ᴡɪᴛʜ /channelplay."
-setting_13 : "ᴄᴀɴ'ᴛ ᴄʜᴀɴɢᴇ ᴘʟᴀʏ ᴍᴏᴅᴇ ɪɴ ᴀᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ ᴄᴀʟʟ. ᴘʟᴇᴀsᴇ sᴛᴏᴘ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ꜰɪʀsᴛ ᴡɪᴛʜ /stop or /end."
-setting_14 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\nᴡʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ, ʙᴏᴛ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ɪᴛs ᴇxᴇᴄᴜᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs (/play, /pause, /shuffle, /stop ᴇᴛᴄ) ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.\n\nʙᴏᴛ ᴡɪʟʟ ʙᴇ ʀᴇǫᴜɪʀɪɴɢ ᴅᴇʟᴇᴛᴇ ᴍᴇssᴀɢᴇs ᴀᴅᴍɪɴ ʀɪɢʜᴛ ꜰᴏʀ ᴛʜɪs ᴛᴏ ᴡᴏʀᴋ ᴘʀᴏᴘᴇʀʟʏ."
-setting_15 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴘᴇᴇʀ, ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴅᴅᴇᴅ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇᴅ ɪᴛ ᴀs ᴀᴅᴍɪɴ ᴍʏ ʟᴏᴠᴇ ​🌹​.\n\nᴛʀʏ sᴇᴛᴛɪɴɢ /channelplay ᴀɢᴀɪɴ."
-setting_16 : "🤷‍♀️ ᴡʜᴀᴛ ɪs ᴛʜɪs ?\n\nᴡʜᴇɴ ᴛʜɪs ɪs ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ sᴜɢɢᴇsᴛ ʏᴏᴜʀ ᴄʜᴀᴛ ɪɴ ᴇᴠᴇʀʏ 1-2 ʜᴏᴜʀ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴏғ ᴛʜᴇ ʙᴏᴛ."
+setting_1 : "**VCBOT sozlamalari**\n\n**Guruh:** {0}\n**Guruh idsi:** `{1}`\n\n**Oʻzgartirmoqchi boʻlgan funksiya tugmachalarini pastdan oʻzgartiring.**"
 
-set_cb_1 : "ɢᴇᴛᴛɪɴɢ ᴀᴜᴅɪᴏ ǫᴜᴀʟɪᴛʏ ᴩᴀɴᴇʟ..."
-set_cb_2 : "ɢᴇᴛᴛɪɴɢ ᴠɪᴅᴇᴏ ǫᴜᴀʟɪᴛʏ ᴩᴀɴᴇʟ..."
-set_cb_3 : "ɢᴇᴛᴛɪɴɢ ᴀᴜᴛʜ ᴜsᴇʀs ᴩᴀɴᴇʟ..."
-set_cb_4 : "ɢᴇᴛᴛɪɴɢ ᴩʟᴀʏ ᴍᴏᴅᴇ ᴩᴀɴᴇʟ..."
-set_cb_5 : "ɢᴇᴛᴛɪɴɢ ᴄʟᴇᴀɴ ᴍᴏᴅᴇ ᴩᴀɴᴇʟ..."
-set_cb_6 : "sᴇᴛᴛɪɴɢ ᴜᴩ ᴄʜᴀɴɢᴇs..."
-set_cb_7 : "ɢᴇᴛᴛɪɴɢ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ..."
-set_cb_8 : "ɢᴏɪɴɢ ʙᴀᴄᴋ..."
+
+
+
+
+
+
+
+setting_3 : "🤷‍♀️ Bu nima?\n\n1) Musiqani izlash uchun /play dan keyin musiqa nomini kiriting , Videolar uchun esa /vplay .\n\n2) Inline: ʀᴇᴛᴜʀɴs ɪɴʟɪɴᴇ ᴍᴀʀᴋᴜᴘ ʙᴜᴛᴛᴏɴs ꜰᴏʀ ᴄʜᴏᴏsɪɴɢ ʙᴇᴛᴡᴇᴇɴ ᴠɪᴅᴇᴏ & ᴀᴜᴅɪᴏ."
+
+
+
+
+
+
+
+
+setting_4 : "🤷‍♀️ Bu nima ?\n\n🦸 Hamma : Hamma admin buyruqlarini ishlata oladi(/skip, /pause, /resume ) bu guruhda faol.\n\n🥷 Faqat admin: Faqat admin va Avtorizatsiya qilingan foydalanuvchilargina ishlata oladi."
+setting_5 : "Avtorizatsiya qilingan foydalanuvchilar topilmadi\n\nSiz xohlagan foydalanuvchini /auth buyrug'i bilan  admin berishingiz yoki /unauth orqali adminlikdan olishingiz mumkin!"
+setting_9 : "🤷‍♀️ Bu nima?\n\nYoniq turganda bot buyruqlar va eski xabarlarni o'chiradi (chatni toza saqlash uchun)"
+setting_10 : "🤷‍♀️ Bu nima?\n\n1) Guruh: Buyruq berilgan guruhda musiqa ijro etadi!\n\n2) Kanal: Siz xohlagan kanalda musiqa ijro etadi. /channelplay orqali kanalni sozlang!"
+setting_11 : "🤷‍♀️ Bu nima?\n\n1) Hamma: Guruhda bor hamma musiqa qo'yishlari mumkin.\n\n2) Faqat admin: Faqat adminlargina musiqa qo'yishi mumkin..."
+setting_12 : "🤷‍♀️ Kanal rejimi uchun sizda kanal belgilanmagan /channelplay buyrug'idan foydalaning!"
+setting_13 : "Faol ovozli chat paytida rejim almashtirib bo'lmaydi. Iltimos /end yoki /stop funksiyasidan foydalaning"
+setting_14 : "🤷‍♀️ Bu nima?\n\nFaol bo'lganda: Bot buyruqlarni o'chiradi masalan :(/play, /pause, /shuffle, /stop va bosh.) ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.\n\nTog'ri ishlashi uchun xabar o'chirish admin huquqi bo'lishi kerak!"
+setting_15 : "Xato!!! Bot kanalda adminligiga ishonch hosil qiling​.\n\nyoki qaytadan /channelplay buyrug'i bilan urunib ko'ring"
+setting_16 : "🤷‍♀️ Bu nima?\n\nFaol bo'lganda: Bot har 2 minutda buyruqlar haqida eslatib turadi..."
+
+
+
+
+
+
+set_cb_1 : "Audio sifatini o'zgartirish paneli..."
+set_cb_2 : "Video sifatini o'zgartirish paneli..."
+set_cb_3 : "Foydalanuvchilar panelini olish..."
+set_cb_4 : "Ijro etish panelini olish..."
+set_cb_5 : "Clean rejimi panelini olish..."
+set_cb_6 : "O'zgarishni o'rnatish..."
+set_cb_7 : "Foydalanuvchilar ro'yxatini olish..."
+set_cb_8 : "Orqaga..."
 
 # Misc
-ustats_1 : "ɴᴏ ᴜsᴇʀ sᴛᴀᴛs ꜰᴏᴜɴᴅ."
-ustats_2 : "ɢʀᴇᴛᴛɪɴɢs ᴍʏ ʟᴏᴠᴇ ​🌹 !, ʏᴏᴜ ʜᴀᴠᴇ ᴘʟᴀʏᴇᴅ **{0}** ᴛʀᴀᴄᴋs ᴛɪʟʟ ɴᴏᴡ ᴡɪᴛʜ ᴀ ᴡʜᴏᴘᴘɪɴɢ ᴄᴏᴜɴᴛ ᴏꜰ **{1}** ᴛɪᴍᴇs.\n\nᴛᴏᴘ **{2}** ᴘʟᴀʏᴇᴅ ʙʏ ʏᴏᴜ:\n\n"
+ustats_1 : "Foydalanuvchilar statistikasi topilmadi!"
+ustats_2 : "Salom​!, Siz **{0}** ni qo'ydingiz, Hozirgacha ko'p tinglangan treklar treklar **{1}** marta.\n\Top **{2}** Siz qo'yganingiz:\n\n"
 
-gstats_1 : "ɢᴇᴛᴛɪɴɢ ɢʟᴏʙᴀʟ sᴛᴀᴛs, ᴛʜɪs ᴄᴏᴜʟᴅ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ..."
-gstats_2 : "ɴᴏ ɢʟᴏʙᴀʟ sᴛᴀᴛs ꜰᴏᴜɴᴅ."
-gstats_3 : "ɢᴇᴛᴛɪɴɢ ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 {0} ᴏꜰ ᴛʜᴇ ʙᴏᴛ, ᴛʜɪs ᴄᴏᴜʟᴅ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ..."
-gstats_4 : "**ᴛᴏᴛᴀʟ ǫᴜᴇʀɪᴇs ᴏɴ ʙᴏᴛ:** {0}\n\n{1} ʜᴀs ᴘʟᴀʏᴇᴅ **{2}** ᴛʀᴀᴄᴋs ᴛɪʟʟ ɴᴏᴡ ᴡɪᴛʜ ᴀ ᴡʜᴏᴘᴘɪɴɢ ᴄᴏᴜɴᴛ ᴏꜰ **{3}** ᴛɪᴍᴇs.\n\n**ᴛᴏᴘ {4} ᴛʀᴀᴄᴋs:**\n"
-gstats_5 : "**ᴛᴏᴘ {0} ᴄʜᴀᴛs ᴏꜰ {1}:**\n\n"
-gstats_6 : "**ᴛᴏᴩ {0} ᴜsᴇʀs ᴏғ {1}:**\n\n"
-gstats_7 : "ᴛʜɪs ᴄʜᴀᴛ ɢʀᴏᴜᴘ ʜᴀs ᴘʟᴀʏᴇᴅ **{0}** ᴛʀᴀᴄᴋs ᴛɪʟʟ ɴᴏᴡ ᴡɪᴛʜ ᴀ ᴡʜᴏᴘᴘɪɴɢ ᴄᴏᴜɴᴛ ᴏꜰ **{1}** ᴛɪᴍᴇs.\n\nᴛᴏᴘ {2} ᴘʟᴀʏᴇᴅ ʙʏ ᴛʜɪs ᴄʜᴀᴛ ɢʀᴏᴜᴘ:\n\n"
-gstats_8 : "ɢᴇᴛᴛɪɴɢ ʙᴏᴛ's ɢᴇɴᴇʀᴀʟ sᴛᴀᴛs ᴀɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ.. ᴛʜɪs ᴄᴏᴜʟᴅ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ..."
-gstats_9 : "**ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛs ᴏꜰ ᴛʜᴇ ʙᴏᴛ ᴍʏ ʟᴏᴠᴇ ​🌹**\n\nsᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ꜰʀᴏᴍ ʙᴇʟᴏᴡ ꜰᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴇᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs ꜰʀᴏᴍ ʙᴏᴛ's sᴇʀᴠᴇʀs."
-gstats_10 : "**ɢʟᴏʙᴀʟ sᴛᴀᴛs ᴏғ {0}**\n\nsᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ғʀᴏᴍ ʙᴇʟᴏᴡ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴇᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs ғʀᴏᴍ ʙᴏᴛ's sᴇʀᴠᴇʀs."
-gstats_11 : "**ɢᴇɴᴇʀᴀʟ sᴛᴀᴛs ᴏғ {0}**\nsᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ғʀᴏᴍ ʙᴇʟᴏᴡ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴇᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs ғʀᴏᴍ ʙᴏᴛ's sᴇʀᴠᴇʀs.\n\nᴜsᴇ /gstats ᴛᴏ ᴄʜᴇᴄᴋ ᴛᴏᴩ ᴛʀᴀᴄᴋs, ᴄʜᴀᴛs, ᴜsᴇʀs ᴀɴᴅ ᴍᴀɴʏ ᴏᴛʜᴇʀ sᴛᴜғғs."
+gstats_1 : "To'liq statistikani olish, bu biroz cho'zilishi mumkin..."
+gstats_2 : "To'liq statistika topilmadi."
+gstats_3 : "Botdagi TOP 10 statistikani olish {0},bu biroz cho'zilishi mumkin..."
+gstats_4 : "**Botdagi ja'mi so'rovlar:** {0}\n\n{1} Ijro etilmoqda**{2}** Hozirgacha ko'p tinglangan treklar**{3}** marta.\n\n**Top {4} Treklar:**\n"
+gstats_5 : "**Top {0} chat{1}:**\n\n"
+gstats_6 : "**ᴛᴏᴩ {0} foydalanuvchilari {1}:**\n\n"
+
+
+
+
+gstats_7 : "Bu guruhda **{0}** ta musiqa ijro etildi..."
+gstats_8 : "To'liq statistikani olish, bu biroz cho'zilishi mumkin..."
+gstats_9 : "Botdagi TOP 10 statistikani olish {0},bu biroz cho'zilishi mumkin..."
+gstats_10 : "**Global statistika {0}**\n\n"
+gstats_11 : "**Global statistaka: {0}**\n\n\n/gstats buyrug'i orqali eng top musiqalarni bilishingiz mumkin!."
 
 # Play 
 
 #Play Callback 
-playcb_1 : "ᴛʜɪs ɪs ɴᴏᴛ ꜰᴏʀ ʏᴏᴜ ᴍʏ ʟᴏᴠᴇ ​🌹 ! sᴇᴀʀᴄʜ ʏᴏᴜ ᴏᴡɴ."
-playcb_2 : "ɢᴇᴛᴛɪɴɢ ɴᴇxᴛ ʀᴇsᴜʟᴛ..."
+playcb_1 : "Bu siz uchun emas. O'zingiz uchun boshqa qidiring...."
+playcb_2 : "Keyingi natijalar yuklanmoqda..."
 
 # Channel Play
-cplay_1 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴄʜᴀɴɴᴇʟs ꜰʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ [{0}] ᴛᴏ ᴀɴʏ ᴄʜᴀɴɴᴇʟ ᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ's ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ.\n\n**ꜰᴏʀ ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ:**\n/{1} ʟɪɴᴋᴇᴅ\n\n**ꜰᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ:**\n/{1} [ᴄʜᴀɴɴᴇʟ ɪᴅ]"
-cplay_2 : "ᴛʜɪs ᴄʜᴀᴛ ʜᴀs ɴᴏ ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ."
-cplay_3 : "ᴄʜᴀɴɴᴇʟ ᴅᴇꜰɪɴᴇᴅ ᴛᴏ {0}\n\nᴄʜᴀɴɴᴇʟ ɪᴅ: {1}"
-cplay_4 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ᴄʜᴀɴɴᴇʟ.\n\nᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴅᴅᴇᴅ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇᴅ ɪᴛ ᴀs ᴀᴅᴍɪɴ.\nᴄʜᴀɴɢᴇ ᴄʜᴀɴɴᴇʟ ᴠɪᴀ /channelplay ᴏʀ ᴅɪsᴀʙʟᴇ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ ᴍᴏᴅᴇ ᴠɪᴀ /playmode"
-cplay_5 : "ᴏɴʟʏ ᴄʜᴀɴɴᴇʟs ᴀʀᴇ sᴜᴘᴘᴏʀᴛᴇᴅ."
-cplay_6 : "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴛʜᴇ **ᴏᴡɴᴇʀ** ᴏꜰ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ [{0}] ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ɪᴛ ᴡɪᴛʜ ᴛʜɪs ɢʀᴏᴜᴘ.\n**ᴄʜᴀɴɴᴇʟ's ᴏᴡɴᴇʀ:** @{1}\n\nᴀʟᴛᴇʀɴᴀᴛɪᴠᴇʟʏ ʏᴏᴜ ᴄᴀɴ ʟɪɴᴋ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴛʀʏ ᴄᴏɴɴɴᴇᴄᴛɪɴɢ ᴡɪᴛʜ `/channelplay linked`"
+cplay_1 : "Siz bu guruhdan turib shu guruhga ulangan har qanday kanalda musiqa qo'yisingiz mumkin!."
+cplay_2 : "Bu guruhga kanal biriktirilmagan!"
+cplay_3 : "Kanal qayd etildi {0}\n\Kanal ID: {1}"
+cplay_4 : "Kanalni olishda xatolik!\n\nBotni kanalda admin qilganingizda ishonchingiz komilmi!.\n/channelplay orqali kanalni o'zgartiring yoki /playmode orqali rejimni o'zgartiring!"
+cplay_5 : "Faqat kanallar qo'llab quvvatlanadi!"
+cplay_6 : "Kanalga ulash uchun kanal egasi bo'lishingiz kerak!"
 
 #Play
-play_1 : "**» sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜ ᴍᴏɪ ʟᴜʙ 🌹🎙️🕹️🥀🌷 ᴡᴀɪᴛ...**"
-play_2 : "🏷**ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ ᴍᴏᴅᴇ**\n🔄 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!\n\n**ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ:** {0}"
-play_3 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ǫᴜᴇʀʏ !"
-play_4 : "🖇 **ᴀᴅᴍɪɴs ᴏɴʟʏ ᴘʟᴀʏ**\nᴏɴʟʏ ᴀᴅᴍɪɴs ᴀɴᴅ ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.\n\nᴄʜᴀɴɢᴇ ᴍᴏᴅᴇ ᴠɪᴀ /playmode ᴀɴᴅ ɪꜰ ʏᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴍɪɴ, ʀᴇʟᴏᴀᴅ ᴀᴅᴍɪɴᴄᴀᴄʜᴇ ᴠɪᴀ /admincache or /reload"
-play_5 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ᴀᴜᴅɪᴏ ꜰɪʟᴇ.\n\nᴀᴜᴅɪᴏ ꜰɪʟᴇ sɪᴢᴇ sʜᴏᴜʟᴅ ʙᴇ ʟᴇss ᴛʜᴀɴ 100 ᴍʙ."
-play_6 : "**ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ ᴇxᴄᴇᴇᴅᴇᴅ**\n\n**ᴀʟʟᴏᴡᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ:** {0} ᴍɪɴᴜᴛᴇs\n**ʀᴇᴄᴇɪᴠᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ:** {1} ᴍɪɴᴜᴛᴇs"
-play_7 : "sᴏʀʀʏ ! ʙᴏᴛ ᴏɴʟʏ ᴀʟʟᴏᴡs ʟɪᴍɪᴛᴇᴅ ɴᴜᴍʙᴇʀ ᴏꜰ ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴅᴜᴇ ᴛᴏ ᴄᴘᴜ ᴏᴠᴇʀʟᴏᴀᴅ ɪssᴜᴇs. ᴍᴀɴʏ ᴏᴛʜᴇʀ ᴄʜᴀᴛs ᴀʀᴇ ᴜsɪɴɢ ᴠɪᴅᴇᴏ ᴄᴀʟʟ ʀɪɢʜᴛ ɴᴏᴡ. ᴛʀʏ sᴡɪᴛᴄʜɪɴɢ ᴛᴏ ᴀᴜᴅɪᴏ ᴏʀ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ."
-play_8 : "ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ ᴠɪᴅᴇᴏ ꜰɪʟᴇ ᴇxᴛᴇɴsɪᴏɴ ᴍʏ ʟᴏᴠᴇ ​🌹 !\n\n**sᴜᴘᴘᴏʀᴛᴇᴅ ꜰᴏʀᴍᴀᴛs:** {0}"
-play_9 : "ᴠɪᴅᴇᴏ ꜰɪʟᴇ sɪᴢᴇ sʜᴏᴜʟᴅ ʙᴇ ʟᴇss ᴛʜᴀɴ 1 ɢɪʙ"
-play_10 : "**ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ꜰᴇᴀᴛᴜʀᴇ**\n\nsᴇʟᴇᴄᴛ ᴛʜᴇ ᴍᴏᴅᴇ ɪɴ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ᴡʜᴏʟᴇ ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ"
-play_11 : "🌹**ᴛɪᴛʟᴇ:** {0}\n\n🕕**ᴅᴜʀᴀᴛɪᴏɴ:** {1} ᴍɪɴs"
-play_12 : "**sᴘᴏᴛɪꜰʏ ᴘʟᴀʏʟɪsᴛs**\n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:- {0}"
-play_13 : "**ᴀᴘᴘʟᴇ ᴘʟᴀʏʟɪsᴛs**\n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:- {0}"
-play_14 : "**ᴜɴᴀʙʟᴇ ᴛᴏ ᴠᴇʀɪꜰʏ ᴛʜᴇ ᴜʀʟ.**\nʙᴏᴛ ᴡᴏɴᴅᴇʀs ɪꜰ ᴛʜɪs ᴜʀʟ ʙᴇʟᴏɴɢs ᴛᴏ ᴀɴʏ ᴏꜰ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍs: ʏᴏᴜᴛᴜʙᴇ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ, sᴘᴏᴛɪꜰʏ, ʀᴇssᴏ ᴀɴᴅ sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n\nʏᴏᴜ ᴄᴀɴ ᴜsᴇ /stream ꜰᴏʀ ᴍ3ᴜ8 ᴏʀ ʀᴇᴍᴏᴛᴇ ʟɪɴᴋs."
-play_15 : "**ʟɪᴠᴇ sᴛʀᴇᴀᴍ ᴅᴇᴛᴇᴄᴛᴇᴅ**\n\nsʏsᴛᴇᴍs ʜᴀᴠᴇ ᴅᴇᴛᴇᴄᴛᴇᴅ ʏᴏᴜʀ ᴛʀᴀᴄᴋ ʟɪɴᴋ ᴀs ʟɪᴠᴇ sᴛʀᴇᴀᴍ. ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ʟɪᴠᴇ sᴛʀᴇᴀᴍ ?"
-play_16 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ꜰᴇᴛᴄʜ ᴛʀᴀᴄᴋ ᴅᴇᴛᴀɪʟs, ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴛʀᴀᴄᴋ ɪs ᴀɢᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ. ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɴʏ ᴏᴛʜᴇʀ."
-play_17 : "ᴜɴᴀʙʟᴇ ᴛᴏ ᴩʟᴀʏ ᴛʜɪs ᴛʏᴩᴇ ᴏғ sᴩᴏᴛɪғʏ ǫᴜᴇʀʏ !\n\n ɪ ᴄᴀɴ ᴏɴʟʏ ᴩʟᴀʏ sᴩᴏᴛɪғʏ ᴛʀᴀᴄᴋs, ᴀʟʙᴜᴍs, ᴀʀᴛɪsᴛs ᴀɴᴅ ᴩʟᴀʏʟɪsᴛs"
-play_18 : "**ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**\n\nᴛᴏ ᴜsᴇ ғᴏʀᴄᴇ ᴩʟᴀʏ, ᴛʜᴇʀᴇ ᴍᴜsᴛ ʙᴇ ᴀɴ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛ."
+play_1 : "Qidirilmoqda..."
+play_2 : "🏷**Kanal rejimi**\n🔄 So'rov jarayonda... iltimos kuting!\n\n**Bog'langan kanal:** {0}"
+play_3 : "Xatolik yuz berdi!"
+play_4 : "🖇 **Faqat adminlar rejimi**\nFaqat adminlar va avtorizatsiya qilingan foydalanuvchilargina musiqa qo'yishlari mumkin!\n\n/playmode orqali rejimni almashtiring agar admin bo'lsangiz /adminchache yoki /reload dan foydalaning!"
+play_5 : "Audo faylni ijro etishda xatolik!\n\n100mb dan kichik bo'lgan audo fayllargina qo'llab quvvatlanadi!"
+play_6 : "**Davomiylik chegarasidan oshib ketdi!**\n\n**Mumkin bo'lgan davomiylik:** {0} daqiqa\n**Olingan davomiylik:** {1} daqiqa"
+play_7 : "Ming bor uzr server muammosi tufayli bot sanoqli video strimga ruxsat bera oladi!. Juda ko'plab chatlarda botdan strimda foydalanishmoqda iltimos audio rejimiga o'tkazing yoki o'zingiz uchun alohida shaxsiy bot buyurtma bering: @macheteVCowner ."
+play_8 : "Aniq videomidi bu?\n\n**Qo'llab quvvatlanadigan formatlar:** {0}"
+play_9 : "1GB dan yuqori videolar ijro etilmaydi!"
+play_10 : "**Youtube pleylist imkoniyatlari**\n\nPlaylistni ijro etish uchun rejim tanlang!"
+play_11 : "🌹**Nomi:** {0}\n\n🕕**Davomiyligi:** {1} ᴍɪɴs"
+play_12 : "**Spotify pleylist**\n\nKim so'radi:- {0}"
+play_13 : "**Apple pleylisti**\n\nKim so'radi:- {0}"
+play_14 : "**Linkni tekshirib bo'lmadi.**\nAniq quyidagilardan biriga tegishli linkmidi?: Youtube, Apple music, Spotify, Resso va Soundcloud.\n\n /stream buyrug'i orqali streamlarni link orqali kuzatishingiz mumkin!."
+play_15 : "**Jonli efir aniqlandi**\n\nTizim linkingiz jonli efirga tegishli ekanligini aniqladi. Jonli efir ijro etilsinmi?"
+play_16 : "Media malumotlarini olishda xatolik, balki youtubeda bu media taqiqlangandir. Boshqa narsa so'rashga harakat qiling!."
+play_17 : "Bu turdagi spotify so'rovni bajarib bo'lmadi!\n\n Men faqat musiqa pleylist yoki artist bo'yicha ijro etishim mumkin!"
+play_18 : "**Faol chat mavjud emas!**\n\nMajburan musiqa qo'yish uchun faol chat bo'lishi shart!"
 
 #Playlist
-playlist_1 : "**ᴜsᴀɢᴇ:** /play [ᴍᴜsɪᴄ ɴᴀᴍᴇ ᴏʀ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ]\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ʙᴏᴛ's sᴇʀᴠᴇʀ ᴘʟᴀʏʟɪsᴛ ! ᴘʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ."
-playlist_2 : "ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ !"
-playlist_3 : "ʏᴏᴜ ʜᴀᴠᴇ ɴᴏ ᴘʟᴀʏʟɪsᴛ ᴏɴ ʙᴏᴛ's sᴇʀᴠᴇʀ."
-playlist_4 : "ꜰᴇᴛᴄʜᴇᴅ ᴘʟᴀʏʟɪsᴛ:\n\n"
-playlist_5 :  "ᴅᴜʀᴀᴛɪᴏɴ- {0} ᴍɪɴs"
-playlist_6 : "ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ꜰᴏʀ ᴅᴇʟᴇᴛɪᴏɴ ᴏꜰ ᴘʟᴀʏʟɪsᴛs."
-playlist_7 : "ᴛʀᴀᴄᴋs ɪɴsɪᴅᴇ ᴘʟᴀʏʟɪsᴛ: {0}\n\nᴘʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴛʀᴀᴄᴋ ɪɴ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ.\n\nᴛᴏ ᴅᴇʟᴇᴛᴇ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ: ᴘʀᴇss ᴅᴇʟ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ ʙᴜᴛᴛᴏɴ."
-playlist_8 : "ᴀʟʀᴇᴀᴅʏ ᴇxɪsᴛs\n\nᴛʜɪs ᴛʀᴀᴄᴋ ᴇxɪsᴛs ɪɴ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ."
-playlist_9 : "sᴏʀʀʏ ! ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ʜᴀᴠᴇ {0} ᴍᴜsɪᴄ ɪɴ ᴀ ᴘʟᴀʏʟɪsᴛ ᴍʏ ʟᴏᴠᴇ ​🌹."
-playlist_10 : "ᴘʟᴀʏʟɪsᴛ ᴀᴅᴅɪᴛɪᴏɴ\n\n{0}\nᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ."
-playlist_11 : "sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ʏᴏᴜʀ ᴛʀᴀᴄᴋ."
-playlist_12 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ʏᴏᴜʀ ᴛʀᴀᴄᴋ."
-playlist_13 : "ᴅᴇʟᴇᴛᴇᴅ ʏᴏᴜʀ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛs ꜰʀᴏᴍ ᴛʜᴇ sᴇʀᴠᴇʀ. "
-playlist_14 : "**ᴀʀᴇ ʏᴏᴜ sᴜʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ ?**\n\nʏᴏᴜ'ʟʟ ʟᴏsᴛ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ ᴀɴᴅ ᴛʜɪs ᴄᴀɴ'ᴛ ʙᴇ ʀᴇᴄᴏᴠᴇʀᴇᴅ ʟᴀᴛᴇʀ."
-playlist_15 : "[ᴄʜᴇᴄᴋᴏᴜᴛ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ]({0})"
-playlist_16 : "ǫᴜᴇᴜᴇᴅ ᴘʟᴀʏʟɪsᴛ :"
-playlist_17 : "Queued Position -"
-playlist_18 : "[ᴄʜᴇᴄᴋᴏᴜᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ᴘʟᴀʏʟɪsᴛ]({0})\n\nʟᴀsᴛ ǫᴜᴇᴜᴇᴅ ᴘᴏsɪᴛɪᴏɴ : **{1}**"
+playlist_1 : "**Foydalanilishi:** /play [Musiqa nomi, youtube link yoki audio faylga `reply`qilib]\n\nAgar botning server pleylistini eshitmoqchi bo'lsangiz tugmalardan foydalaning!."
+playlist_2 : "Pleylistingiz yuklanmoqda iltimos kuting... !"
+playlist_3 : "Bot serverida sizda pleylist mavjud emas!"
+playlist_4 : "Yuklangan pleylist:\n\n"
+playlist_5 :  "Davomiylik: - {0} daqiqa"
+playlist_6 : "Pleylistni o'chirish uchun shaxsiydan yozing!"
+playlist_7 : "Pleylistdagi musiqalar: {0}\n\nAynan bir musiqani o'chirish uchun quyidagi tugmadan foydalaning.\n\nButun pleylistni o'chirish uchun o'chirish tugmasini ishlating!."
+playlist_8 : "Bu musiqa pleylistda avvaldan mavjud!"
+playlist_9 : "Kechirasiz pleylistda {0} tagacha musiqa saqlashingiz mumkin!"
+playlist_10 : "Pleylistga qo'shildi:\n\n{0}\n"
+playlist_11 : "Trek o'chirildi!"
+playlist_12 : "Trekni o'chirishda muammo!"
+playlist_13 : "Butun pleylsit serverdan o'chirildi!"
+playlist_14 : "**Pleylistni o'chirishga ishonchingiz komilmi?**\n\nBu ish ortga qaytmaydi!"
+playlist_15 : "[Butun pleylist]({0})"
+playlist_16 : "Navbatdagi playlist :"
+playlist_17 : "Navbatdagi o'rni -"
+playlist_18 : "[Butun pleylist tekshiruvi:]({0})\n\nOxirgi o'rni : **{1}**"
 
 #Playmode
-playmode_1 : "sᴇʟᴇᴄᴛ ᴛʜᴇ ᴍᴏᴅᴇ ɪɴ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ᴛʜᴇ ǫᴜᴇʀɪᴇs ɪɴsɪᴅᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ [{0}]."
-playmode_2 : "sᴇᴛᴛɪɴɢs ᴄʜᴀɴɢᴇᴅ ᴀɴᴅ sᴀᴠᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ʙʏ {0}"
+playmode_1 : "Guuruhda musiqani ijro etish uchun rejim tanlang![{0}]."
+playmode_2 : "Sozlamar qo'landi: {0}"
 
 #Stream 
-str_1 : "ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍ3ᴜ8 ʟɪɴᴋs ᴏʀ ɪɴᴅᴇx ʟɪɴᴋs."
-str_2 : "🌹 ᴠᴀʟɪᴅ sᴛʀᴇᴀᴍ ᴠᴇʀɪꜰɪᴇᴅ\n\nᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴘʀᴏᴄᴇssɪɴɢ ʟɪɴᴋ..."
-str_3 : "ᴜɴᴀʙʟᴇ ᴛᴏ sᴛʀᴇᴀᴍ ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ sᴛʀᴇᴀᴍs. ɴᴏ ʟɪᴠᴇ ꜰᴏʀᴍᴀᴛ ꜰᴏᴜɴᴅ"
+str_1 : "Iltimos linkni to'g'ri yuboring!"
+str_2 : "Link qabul qilindi\n\nIltimos kuting..."
+str_3 : "Strimni ijro etib bo'lmadi"
 
 #TopPlay
-tracks_1 : "**ᴘʀᴏᴄᴇssɪɴɢ {0} ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛ**\n\n🌹**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {1}\n📢**ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ:** {2}\n\nᴄʜᴇᴄᴋ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs ʙʏ /stats"
-tracks_2 : "**ᴇʀʀᴏʀ**\n\nᴛʜᴇʀᴇ's ɴᴏ **{0} ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛ** ᴏɴ ʙᴏᴛ's sᴇʀᴠᴇʀs. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʟᴀʏʟɪsᴛ"
+tracks_1 : "**Yuklanmoqda {0} Top 10 talik pleylist**\n\n🌹**Tomonidan so'raldi:** {1}\n📢**Kanal rejimi:** {2}\n\nTop 10 statistika /stats"
+tracks_2 : "**Xato**\n\n **{0} Bot serverida Top 10 talik pleylist mavjud emas"
 
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**ᴜsᴀɢᴇ:**\n\n/lyrics [ ᴍᴜsɪᴄ ɴᴀᴍᴇ]"
-lyrics_2 : "sᴇᴀʀᴄʜɪɴɢ ʟʏʀɪᴄs..."
-lyrics_3 : "❌ ꜰᴀɪʟᴇᴅ ᴛᴏ ꜰᴇᴛᴄʜ ʟʏʀɪᴄs 🥲.\n\n🎐**ᴛʀɪᴇᴅ sᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ:** {0}"
-lyrics_4 : "ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ɢᴇᴛ sᴇᴀʀᴄʜᴇᴅ ʟʏʀɪᴄs ᴛᴏ ᴀᴠᴏɪᴅ ʟᴏɴɢ sᴘᴀᴍ ᴛʏᴘᴇs ʟʏʀɪᴄs sᴇᴀʀᴄʜ."
+lyrics_1 : "**Ishlatilinishi:**\n\n/lyrics [musiqa nomi]"
+lyrics_2 : "Matn qidirilmoqda...."
+lyrics_3 : "❌ Matnni topib bo'lmadi  🥲.\n\n🎐**Izlangan so'rov:** {0}"
+lyrics_4 : "Matnni ko'rish."
 
 #Ping
-ping_1 : "» ᴩɪɴɢɪɴɢ ᴍʏ ʟᴏᴠᴇ ​🌹..."
-ping_2 : "**» ᴘᴏɴɢ ᴍʏ ʟᴏᴠᴇ ​🌹 «**\n`🌋 {0} ᴍs`\n\n<b><u>{1} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>\n\n🌋 ᴜᴩᴛɪᴍᴇ : {2} \n🌋 ʀᴀᴍ : {3} \n🌋 ᴄᴩᴜ : {4} \n🌋 ᴅɪsᴋ : {5} \n🌋 ᴩʏ-ᴛɢᴄᴀʟʟs : `{6} ᴍs`\n🌹 **sᴇʀᴠᴇʀ** : @QN_Team_support"
+ping_1 : "» Ping tekshirilmoqda...."
+ping_2 : "**» Ping natijalari ​«**\n`🌋 {0} ms`\n\n<b><u>{1} Tizim statistikasi :</u></b>\n\n🌋 Ishlayotgan vaqt : {2} \n🌋 RAM : {3} \n🌋 CPU : {4} \n🌋 DISK : {5} \n🌋 PyTgCalls : `{6} ms`\n**Server** : @machetevcnews"
 
 # Song
-song_1 : "ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴜsɪᴄ ᴏʀ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ᴏɴʟʏ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ. ᴘʟᴇᴀsᴇ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ."
-song_2 : "**ᴜsᴀɢᴇ:**\n\n/song [ᴍᴜsɪᴄ ɴᴀᴍᴇ] ᴏʀ [ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ]"
-song_3 : "ʟɪᴠᴇ ʟɪɴᴋ ᴅᴇᴛᴇᴄᴛᴇᴅ. ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪᴠᴇ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏs. "
-song_4 : "🌹**ᴛɪᴛʟᴇ**:- {0}\n\nsᴇʟᴇᴄᴛ ᴛʜᴇ ᴛʏᴘᴇ ɪɴ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ."
-song_5 : "ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ."
-song_6 : "ɢᴇᴛᴛɪɴɢ ꜰᴏʀᴍᴀᴛs...\n\nᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
-song_7 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴏʀᴍᴀᴛs ꜰᴏʀ ᴛʜᴇ ᴠɪᴅᴇᴏ. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴʏ ᴏᴛʜᴇʀ ᴛʀᴀᴄᴋ."
-song_8 : "ᴅᴏᴡɴʟᴏᴀᴅ sᴛᴀʀᴛᴇᴅ\n\nᴘʟᴇᴀsᴇ ʜᴏʟᴅ ᴏɴ ғᴏʀ ғᴇᴡ sᴇᴄᴏɴᴅs..."
-song_9 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢ ꜰʀᴏᴍ ʏᴛ-ᴅʟ\n\n**ʀᴇᴀsᴏɴ:** {0}"
-song_10 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ sᴇʀᴠᴇʀs."
-song_11 : "ᴜᴘʟᴏᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ ᴍʏ ʟᴏᴠᴇ ​🌹\n\nᴘʟᴇᴀsᴇ ʜᴏʟᴅ ᴏɴ..."
+song_1 : "Video yoki musiqani youtubedan yuklash uchun shaxsiydan havolani yuboring!."
+song_2 : "**Foydalanishi:**\n\n/song [musiqa nomi] ᴏʀ [youtube link]"
+song_3 : "Jonli efir aniqlandi Jonli efirni yuklab ololmayman! "
+song_4 : "🌹**Nomi**:- {0}\n\nYuklab olish turini tanlang!"
+song_5 : "Bu youtube link emas..."
+song_6 : "Formatlar olinmoqda...\n\nIltimos kuting..."
+song_7 : "Boshqa video bilan urunib ko'ring. Bu videoni formatini yuklab bo'lmadi!"
+song_8 : "Yuklab olish boshlandi\n\nIltimos ozgina kuting..."
+song_9 : "Yuklab olishda xatolik ʏᴛ-ᴅʟ\n\n**Sabab:** {0}"
+song_10 : "Telegramga yuklab bo'lmadi"
+song_11 : "Yuklanmoqda\n\nKuting..."
 
 # Tools - Queue
-queue_1 : "» ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ..."
-queue_2 : "Queued List is empty. No tracks found"
-queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "**💫 ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ᴀᴛ #{0}**\n\n**🌷 ᴛɪᴛʟᴇ :** {1}\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ :** {2}\n🌹 **ᴀᴅᴅᴇᴅ ʙʏ :** @QN_Team_support"
-queue_5 : "ᴏɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪs ɪɴ ǫᴜᴇᴜᴇ, ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇ."
+queue_1 : "» Iltimos kuting..."
+queue_2 : "Navbatdagilar ro'yxati bo'sh!"
+queue_3 : "<u>**Navbatdagi musiqalar:</u>**  [Navbatdagi musiqalar]({0})"
+queue_4 : "**💫 Navbatga qo'shildi: #{0}**\n\n**🌷 Nomi :** {1}\n**⏱ Davomiyligi :** {2}\n**Yangiliklar:** @machetevcnews"
+queue_5 : "Bir dona musiqa mavjud o'zi."
 
 # All Streaming Lines
-stream_1 : "» **sᴛᴀʀᴛᴇᴅ ᴩʟᴀʏɪɴɢ:** «\n\n🌹 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {0} \n🥀<b>ɪɴғᴏ:</b>[ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/The_Friends_Chatting)"
-stream_2 : "» **ᴩʟᴀʏɪɴɢ ᴠɪᴀ ᴜʀʟ** «\n\n🌹 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {0} "
-stream_3 : "» **sᴛᴀʀᴛᴇᴅ ᴩʟᴀʏɪɴɢ** «\n\n🥀 **ᴛɪᴛʟᴇ:** {0}\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** {1}\n🌹 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {2} "
-stream_4 : "» **sᴛᴀʀᴛᴇᴅ ᴩʟᴀʏɪɴɢ** «\n\n🌹 **ᴛɪᴛʟᴇ:** [{0}]({1})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** {2}\n🌹 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {3} "
+stream_1 : "» **Ijro etish boshlandi:** «\n\n**Tomonidan:** {0} \n🥀<b>dev:</b>[Vermino](https://t.me/vermino)"
+stream_2 : "» **Ijro etilyotgan url** «\n\n**Tomonidan:** {0} "
+stream_3 : "» **Ijro etish boshlandi** «\n\n🥀 **Nomi:** {0}\n🕕 **Davomiyligi:** {1}\n**Tomonidan:** {2} "
+stream_4 : "» **Ijro etish boshlandi** «\n\n**Nomi:** [{0}]({1})\n🕕 **Davomiyligi:** {2}\n**Tomonidan:** {3} "
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "↻ ᴄʟᴏsᴇ ↻"
-CLOSEMENU_BUTTON  : "↻ ᴄʟᴏsᴇ ↻"
+CLOSE_BUTTON  : "↻ Yopish ↻"
+CLOSEMENU_BUTTON  : "↻ Yopish ↻"
 BACK_BUTTON : "◁"
-UNBAN_BUTTON : "• ᴜɴʙᴀɴ •"
+UNBAN_BUTTON : "• Bandan olish •"
 
 #Lyrics
-L_B_1 : "🌋 ᴄʜᴇᴄᴋᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
+L_B_1 : "🌋 Matnlarni ko'rish"
 
 # Start
-S_B_1 : "👨‍💻 ᴄᴏᴍᴍᴀɴᴅs"
-S_B_2 : "sᴇᴛᴛɪɴɢs ⚙️"
-S_B_3 : "sᴜᴘᴘᴏʀᴛ 🌷"
-S_B_4 : "🌟 ᴄʜᴀɴɴᴇʟ"
-S_B_5 : "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕"
-S_B_6 : "💰 ʏᴏᴜᴛᴜʙᴇ 💰"
-S_B_7 : "🔥 ᴏᴡɴᴇʀ 🔥"
-S_B_8 : "😣 ʜᴇʟᴩ 😣"
+S_B_1 : "👨‍💻 Buyruqlar"
+S_B_2 : "Sozlamalar ⚙️"
+S_B_3 : "Qo'llab quvvatlash 🌷"
+S_B_4 : "🌟 Kanal"
+S_B_5 : "➕ Guruhga qo'shish➕"
+S_B_6 : "💰 Youtube 💰"
+S_B_7 : "🔥 Dasturchi 🔥"
+S_B_8 : "😣 Yordam 😣"
 
 #Help 
-H_B_1 : "🌹 ᴀᴅᴍɪɴ 🌹"
+H_B_1 : "Admin"
 H_B_2 : "🌈 ᴘʟᴀʏ 🌈"
-H_B_3 : "🤦 ʙᴏᴛ 🤦"
-H_B_4 : "🧸 ᴇxᴛʀᴀ 🧸"
-H_B_5 : "↻ ᴄʟᴏsᴇ ↻"
-H_B_6 : "🙊 sᴜᴅᴏ 🙊"
-H_B_7 : "🥀 ᴍᴏᴅᴜʟᴇ 🥀"
+H_B_3 : "🤦 Bot 🤦"
+H_B_4 : "🧸 Qo'shimcha 🧸"
+H_B_5 : "↻ Yopish ↻"
+H_B_6 : "🙊 ProAdmin 🙊"
+H_B_7 : "🥀 Modullar 🥀"
 
 
 #PlayMode
-PM_B_1 : "ᴅɪʀᴇᴄᴛ ᴘʟᴀʏ"
-PM_B_2 : "ɪɴʟɪɴᴇ ᴍᴀʀᴋᴜᴘ"
-PM_B_3 : "ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ"
+PM_B_1 : "To'g'ridan to'g'ri pley"
+PM_B_2 : "Shaffof tugma"
+PM_B_3 : "Kanal rejimi"
 
 #Play
-P_B_1 : "🎙️ ᴀᴜᴅɪᴏ 🎙️"
-P_B_2 : "🥀 ᴠɪᴅᴇᴏ 🥀"
-P_B_3 : "🔴 ʟɪᴠᴇ 🔴"
-P_B_4 : "🌹 ᴘʟᴀʏʟɪsᴛ 🌹"
+P_B_1 : "🎙️ Audio "
+P_B_2 : "🎥 Video "
+P_B_3 : "🔴 Jonli efir"
+P_B_4 : "Pleylist"
 
 #Playlist
-PL_B_1 : "🥲 ᴘʟᴀʏʟɪsᴛ 🥲"
-PL_B_2 : "🌼 ᴘʟᴀʏʟɪsᴛs"
-PL_B_3 : "💮︎ ᴄᴘᴀɴɴᴇʟ︎"
-PL_B_4 : "🧸 ᴘʟᴀʏ ᴍᴏᴅᴇ"
-PL_B_5 : "🗑 ᴅᴇʟᴇᴛᴇ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ"
-PL_B_6 : "🗑 ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ"
-PL_B_7 : "🥺 ʏᴇᴀʜ, ᴅᴇʟᴇᴛᴇ ɪᴛ"
-PL_B_8 : "🥳 ᴘʟᴀʏ ᴛᴏᴘ 10"
-PL_B_9 : "🔥 ᴘʟᴀʏ ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-PL_B_10 : "💥 ᴘʟᴀʏ ɢʀᴏᴜᴘ's ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-PL_B_11 : "🥀 ᴘʟᴀʏ ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+PL_B_1 : "🗂️ Pleylist"
+PL_B_2 : "📁 Pleylists"
+PL_B_3 : "👨🏿‍💻 Admin panel"
+PL_B_4 : "🧸 Ijro etish rejimi"
+PL_B_5 : "🗑 Butun pleylistni o'chirish"
+PL_B_6 : "🗑 Pleylistni o'chirish"
+PL_B_7 : "🥺 Ha, o'chir"
+PL_B_8 : "🥳 Top 10 talikni ijro etish"
+PL_B_9 : "🔥 Global 10 talikni ijro etish"
+PL_B_10 : "💥 Guruhni 10 talikni ijro etish"
+PL_B_11 : "👤 Shaxsiy 10 talikni ijro etish"
 
 #Settings
-ST_B_1 : "👨‍🎤 ᴀᴜᴅ ǫᴜᴀʟɪᴛʏ"
-ST_B_2 : "🕹️ ᴠɪᴅ ǫᴜᴀʟɪᴛʏ"
-ST_B_3 : "🔥 ᴀᴜᴛʜ ᴜsᴇʀs"
-ST_B_4 : "🎙️ ᴅᴀsʜʙᴏᴀʀᴅ"
-ST_B_5 : "♣️ ᴘʟᴀʏ ᴍᴏᴅᴇ"
-ST_B_6 : "🇵🇰 ʟᴀɴɢᴜᴀɢᴇ 🇮🇳"
-ST_B_7 : "🗑 ᴄʟᴇᴀɴ ᴍᴏᴅᴇ"
-ST_B_8 : "{0} ʟᴏᴡ ǫᴜᴀʟɪᴛʏ"
-ST_B_9 : "{0} ᴍᴇᴅɪᴜᴍ ǫᴜᴀʟɪᴛʏ"
-ST_B_10 : "{0} ʜɪɢʜ ǫᴜᴀʟɪᴛʏ"
-ST_B_11 : "{0} ʟᴏᴡ ǫᴜᴀʟɪᴛʏ"
-ST_B_12 : "{0} ᴍᴇᴅɪᴜᴍ ǫᴜᴀʟɪᴛʏ"
-ST_B_13 : "{0} ʜɪɢʜ ǫᴜᴀʟɪᴛʏ"
-ST_B_14 : "✅ ᴇɴᴀʙʟᴇᴅ"
-ST_B_15 : "❌ ᴅɪsᴀʙʟᴇᴅ"
-ST_B_16 : "🤭 ᴀᴅᴍɪɴs"
-ST_B_17 : "🥷 ᴇᴠᴇʀʏᴏɴᴇ"
-ST_B_18 : "🦸 ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs"
-ST_B_19 : "🥱 sᴇᴀʀᴄʜ ᴍᴏᴅᴇ"
-ST_B_20 : "🥳 ᴅɪʀᴇᴄᴛ"
-ST_B_21 : "🤭 ɪɴʟɪɴᴇ"
-ST_B_22 : "🙊 ᴘʟᴀʏ ᴍᴏᴅᴇ"
-ST_B_23 : "💥 ɢʀᴏᴜᴘ"
-ST_B_24 : "🌺 ᴄʜᴀɴɴᴇʟ"
-ST_B_25 : "🫂 ᴘʟᴀʏ ᴛʏᴘᴇ"
-ST_B_26 : "🥀 ᴄᴏᴍᴍᴀɴᴅ ᴄʟᴇᴀɴ"
-ST_B_27 : "🌈 sᴜɢɢᴇsᴛɪᴏɴ ᴍᴏᴅᴇ"
+ST_B_1 : "🔊 Audio sifati"
+ST_B_2 : "📺 Video sifati"
+ST_B_3 : "🔥 Foydalanuvchi avtorizatsiyasi"
+ST_B_4 : "🔑 Panel"
+ST_B_5 : "♣️ Pley rejimi"
+ST_B_6 : "🇺🇿 Til "
+ST_B_7 : "🗑 Toza rejimi"
+ST_B_8 : "{0} Past sifat"
+ST_B_9 : "{0} O'rtacha sifat"
+ST_B_10 : "{0} Yuqori sifat "
+ST_B_11 : "{0} Past sifat"
+ST_B_12 : "{0} O'rtacha sifat"
+ST_B_13 : "{0} Yuqori sifat"
+ST_B_14 : "✅ Faol"
+ST_B_15 : "❌ O'chirilgan"
+ST_B_16 : "🤭 Adminlar"
+ST_B_17 : "🥷 Hamma"
+ST_B_18 : "🦸 AUL foydalanuvchilar"
+ST_B_19 : "🥱 Izlash rejimi"
+ST_B_20 : "🥳 Tog'ridan to'gri"
+ST_B_21 : "🤭 Shaffof tugmalar bilan"
+ST_B_22 : "🙊 Ijro rejimi"
+ST_B_23 : "💥 Guruh"
+ST_B_24 : "🌺 Kanal"
+ST_B_25 : "🫂 Ijro turi"
+ST_B_26 : "🥀 Buyruqlarni  tozalash"
+ST_B_27 : "🌈 Tavsiya rejimi"
 
 #Song
-SG_B_1 : "๏ ᴄʟɪᴄᴋ ʜᴇʀᴇ ๏"
-SG_B_2 : "👨‍🎤 ᴀᴜᴅɪᴏ 👨‍🎤"
-SG_B_3 : "🕹️ ᴠɪᴅᴇᴏ 🕹️"
+SG_B_1 : "๏ Bosing ๏"
+SG_B_2 : "👨‍🎤 Audio 👨‍🎤"
+SG_B_3 : "🕹️ Video 🕹️"
 
 #Stats
-SA_B_1 : "🔥 ᴛᴏᴘ 10 ᴄʜᴀᴛs"
-SA_B_2 : "🌹 ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-SA_B_3 : "🪴 ᴛᴏᴘ 10 ᴜsᴇʀs"
-SA_B_4 : "☘️ ᴛᴏᴘ 10 ʜᴇʀᴇ"
-SA_B_5 : "🥀 ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs"
-SA_B_6 : "🌷 ᴜsᴇʀ sᴛᴀᴛs"
-SA_B_7 : "👌 ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛs"
-SA_B_8 : "👾 ʙᴏᴛ sᴛᴀᴛs"
+SA_B_1 : "🔥 Top 10 chatlar"
+SA_B_2 : "Top 10 treklar"
+SA_B_3 : "🪴 Top 10 foydalanuvchilar"
+SA_B_4 : "☘️ Shuyerdagi Top 10"
+SA_B_5 : "🥀 Butun statistika"
+SA_B_6 : "🌷 Foydalanuvchi statistikasi"
+SA_B_7 : "👌 Global Top 10 ta statistika"
+SA_B_8 : "👾 Bot statistakasi"
 
 #Queue
-QU_B_1 : "📑 ǫᴜᴇᴜᴇᴅ ʟɪsᴛ"
-QU_B_2 : "ᴩʟᴀʏᴇᴅ {0} ᴏᴜᴛ ᴏғ {1} ᴍɪɴs"
+QU_B_1 : "📑 Navbat ro'yxati"
+QU_B_2 : "{1} dan {0} daqiqa ijro etildi"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} ɪs ᴀʟʀᴇᴀᴅʏ ᴀ sᴜᴅᴏ ᴜsᴇʀ."
-sudo_2 : "ᴀᴅᴅᴇᴅ **{0}** ᴛᴏ sᴜᴅᴏ ᴜsᴇʀs." 
-sudo_3 : "ɴᴏᴛ ᴀ ᴘᴀʀᴛ ᴏꜰ ʙᴏᴛ's sᴜᴅᴏ."
-sudo_4 : "ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ʙᴏᴛ's sᴜᴅᴏ ᴜsᴇʀ."
-sudo_5 : "🔥<u> **ᴏᴡɴᴇʀs:**</u>\n"
-sudo_6 : "\n🔥<u> **sᴜᴅᴏᴇʀs:**</u>\n"
-sudo_7 : "ɴᴏ sᴜᴅᴏ ᴜsᴇʀs ғᴏᴜɴᴅ."
+sudo_1 : "{0} avvaldan ProAdmin"
+sudo_2 : " **{0}** ProAdminga qo'shildi." 
+sudo_3 : "Botning ProAdmini emas."
+sudo_4 : "ProAdminlikdan olindi"
+sudo_5 : "🔥<u> **Egalar:**</u>\n"
+sudo_6 : "\n🔥<u> **ProAdminlar:**</u>\n"
+sudo_7 : "ProAdminlar topilmadi."
 
 #Block
-block_1 : "{0} ɪs ᴀʟʀᴇᴀᴅʏ ʙʟᴏᴄᴋᴇᴅ ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ."
-block_2 : "ᴀᴅᴅᴇᴅ **{0}** ᴛᴏ ʙʟᴏᴄᴋ ʟɪsᴛ ᴏꜰ ʙᴏᴛ. ᴜsᴇʀ ᴡᴏɴ'ᴛ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴜsᴇ ʙᴏᴛ ɴᴏᴡ ᴜɴᴅᴇʀ ᴀɴʏ ᴄᴏɴᴅɪᴛɪᴏɴ.\n\nᴄʜᴇᴄᴋ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs: /blockedusers"
-block_3 : "ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ꜰʀᴇᴇ."
-block_4 : "ʀᴇᴍᴏᴠᴇᴅ ᴜsᴇʀ ꜰʀᴏᴍ ᴛʜᴇ ʙʟᴏᴄᴋ ʟɪsᴛ. ᴜsᴇʀ ᴡɪʟʟ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴜsᴇ ʙᴏᴛ ɴᴏᴡ."
-block_5 : "ɴᴏ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ꜰᴏᴜɴᴅ."
-block_6 : "ɢᴇᴛᴛɪɴɢ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ...ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ !"
-block_7 : "**ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs:**\n\n"
+block_1 : "{0} bloklangan."
+block_2 : " **{0}** botdan bloklandi. Foydalanuvchi botdan hech qanaqasiga foydalan olmaydi.\n\nBloklanganlar ro'yxatini /blockedusers orqali olishingiz mumkin!"
+block_3 : "Blokdan chiqarilgan."
+block_4 : "Blokdan chiqarildi"
+block_5 : "Bloklangan foydalanuvchilar mavjud emas."
+block_6 : "Bloklangan foydalanuvchilar qidirilmoqda!"
+block_7 : "**Bloklanganlar:**\n\n"
 
 #Blacklist Chats
-black_1 : "**ᴜsᴀɢᴇ:**\n/blacklistchat [CHAT_ID]"
-black_2 : "ᴄʜᴀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ."
-black_3 : "ᴄʜᴀᴛ ʜᴀs ʙᴇᴇɴ sᴜᴄᴄᴇssꜰᴜʟʟʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴍʏ ʟᴏᴠᴇ ​🌹"
-black_4 : "**ᴜsᴀɢᴇ:**\n/whitelistchat [CHAT_ID]"
-black_5 : "ᴄʜᴀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴡʜɪᴛᴇʟɪsᴛᴇᴅ."
-black_6 : "ᴄʜᴀᴛ ʜᴀs ʙᴇᴇɴ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴡʜɪᴛᴇʟɪsᴛᴇᴅ ᴍʏ ʟᴏᴠᴇ ​🌹"
-black_7 : "**ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs:**\n\n"
-black_8 : "ɴᴏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs."
+black_1 : "**Ishlatilinishi:**\n/blacklistchat [CHAT_ID]"
+black_2 : "Chatingiz blokda"
+black_3 : "Chat bloklandi"
+black_4 : "**Ishlatilinishi:**\n/whitelistchat [CHAT_ID]"
+black_5 : "Chat bemalol botdan foydalana oladi"
+black_6 : "Chat blokdan chiqarildi"
+black_7 : "**Bloklangan chatlar:**\n\n"
+black_8 : "Bloklangan chatlar:"
 
 #videolimit
-vid_1 : "**ᴜsᴀɢᴇ:**\n/set_video_limit [ɴᴜᴍʙᴇʀ ᴏғ ᴄʜᴀᴛs] ᴏʀ [ᴅɪsᴀʙʟᴇ]"
-vid_2 : "ᴘʟᴇᴀsᴇ ᴜsᴇ ɴᴜᴍᴇʀɪᴄ ɴᴜᴍʙᴇʀs ꜰᴏʀ sᴇᴛᴛɪɴɢ ʟɪᴍɪᴛ."
-vid_3 : "ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴍᴀxɪᴍᴜᴍ ʟɪᴍɪᴛ ᴅᴇꜰɪɴᴇᴅ ᴛᴏ {0} ᴄʜᴀᴛs."
+vid_1 : "**Ishlatilinishi:**\n/set_video_limit [chatlar soni] yoki [disable]"
+vid_2 : "Iltimos raqamlardan foydalanign chatlar soni uchun"
+vid_3 : "Video chatlar soni {0} ta qilib belgilandi."
 vid_4 : "ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴅɪsᴀʙʟᴇᴅ."
 
 #maintenance
-maint_1 : "**ᴜsᴀɢᴇ:**\n/maintenance [enable|disable]"
-maint_2 : "ᴇɴᴀʙʟᴇᴅ ꜰᴏʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ."
-maint_3 : "ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴅɪsᴀʙʟᴇᴅ."
+maint_1 : "**Ishlatilinishi:**\n/maintenance [enable|disable]"
+maint_2 : "Texnik ishlar rejimi faol."
+maint_3 : "Texnik ishlar rejimi nofaol."
 
 #log
-log_1 : "**ᴜsᴀɢᴇ:**\n/logger [enable|disable]"
-log_2 : "ᴇɴᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ."
-log_3 : "ᴅɪsᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ."
+log_1 : "**Foydalanilishi:**\n/logger [enable|disable]"
+log_2 : "Log yoqish"
+log_3 : "Log o'chirish."
 
 #videomode
-vidmode_1 : "**ᴜsᴀɢᴇ:**\n/videomode [download|m3u8]"
-vidmode_2 : "ᴠɪᴅᴇᴏ ᴘʟᴀʏ ᴍᴏᴅᴇ sᴇᴛ ᴀs ᴅᴏᴡɴʟᴏᴀᴅᴇʀ. ʙᴏᴛ ᴡɪʟʟ ʙᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʀᴀᴄᴋs ɴᴏᴡ."
-vidmode_3 : "ᴠɪᴅᴇᴏ ᴘʟᴀʏ ᴍᴏᴅᴇ sᴇᴛ ᴀs ᴍ3ᴜ8. ʙᴏᴛ ᴡɪʟʟ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴘʟᴀʏ ᴛʀᴀᴄᴋs ʟɪᴠᴇ ɴᴏᴡ."
+vidmode_1 : "**Ishlatilinishi:**\n/videomode [download|m3u8]"
+vidmode_2 : "Video ijro rejimi yuklashga o'zgartirildi."
+vidmode_3 : "Video ijro rejimi ijroga o'zgartirildi."
 
 #broadcast
 broad_1 : "**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ {0}  ᴄʜᴀᴛs ᴡɪᴛʜ {1} ᴘɪɴs ꜰʀᴏᴍ ʙᴏᴛ.**"
 broad_2 : "sᴛᴀʀᴛᴇᴅ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ..."
 broad_3 : "**ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ:\n\n"
 broad_4 : "ᴀssɪsᴛᴀɴᴛ {0} ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ɪɴ {1} ᴄʜᴀᴛs\n"
-broad_5 : "**ᴜsᴀɢᴇ**:\n/broadcast [MESSAGE] or [Reply to a Message]"
-broad_6 : "ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ."
-broad_7 : "**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ {0} ᴜsᴇʀs.**"
+broad_5 : "**Ishlatilinishi**:\n/broadcast [Xabar] yoki [Xabarga reply]"
+broad_6 : "Yuborish uchun tekst bering"
+broad_7 : "**{0} ta chatga yuborildi.**"
 
 #Heroku
-heroku_1 : "ᴘʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜʀ **ʜᴇʀᴏᴋᴜ ᴀᴘɪ ᴋᴇʏ**, ʏᴏᴜʀ **ᴀᴘᴘ ɴᴀᴍᴇ** ᴀʀᴇ ᴄᴏɴꜰɪɢᴜʀᴇᴅ ᴄᴏʀʀᴇᴄᴛʟʏ ɪɴ ʜᴇʀᴏᴋᴜ ᴍʏ ʟᴏᴠᴇ ​🌹"
+heroku_1 : "ᴘʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜʀ **ʜᴇʀᴏᴋᴜ ᴀᴘɪ ᴋᴇʏ**, ʏᴏᴜʀ **ᴀᴘᴘ ɴᴀᴍᴇ** ᴀʀᴇ ᴄᴏɴꜰɪɢᴜʀᴇᴅ ᴄᴏʀʀᴇᴄᴛʟʏ ɪɴ ʜᴇʀᴏᴋᴜ"
 heroku_2 : "ʏᴏᴜ ᴄᴀɴ ᴏɴʟʏ ɢᴇᴛ ʟᴏɢs ᴏꜰ ʜᴇʀᴏᴋᴜ ᴀᴘᴘs."
-heroku_3 : "**ᴜsᴀɢᴇ:**\n/get_var [Var Name]"
+heroku_3 : "**Ishlatilinishi:**\n/get_var [Var Name]"
 heroku_4 : "ᴜɴᴀʙʟᴇ ᴛᴏ ꜰɪɴᴅ ᴀɴʏ sᴜᴄʜ ᴠᴀʀ."
 heroku_5 : ".ᴇɴᴠ ꜰɪʟᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ."
-heroku_6 : "**ᴜsᴀɢᴇ:**\n/del_var [Var Name]"
+heroku_6 : "**Ishlatilinishi:**\n/del_var [Var Name]"
 heroku_7 : "{0} ᴅᴇʟᴇᴛᴇᴅ."
-heroku_8 : "**ᴜsᴀɢᴇ:**\n/set_var [Var Name] [Var Value]"
+heroku_8 : "**Ishlatilinishi:**\n/set_var [Var Name] [Var Value]"
 heroku_9 : "{0} ʜᴀs ʙᴇᴇɴ ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ."
 heroku_10 : "{0} ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ."
-heroku_11 : "ᴏɴʟʏ ꜰᴏʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘs ᴍʏ ʟᴏᴠᴇ ​🌹."
-heroku_12 : "ᴄʜᴇᴄᴋɪɴɢ ʜᴇʀᴏᴋᴜ ᴜsᴀɢᴇ...ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ !"
-heroku_13 : "ᴄʜᴇᴄᴋɪɴɢ ꜰᴏʀ ᴀᴠᴀɪʟᴀʙʟᴇ ᴜᴘᴅᴀᴛᴇs..."
+heroku_11 : "ᴏɴʟʏ ꜰᴏʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘs."
+heroku_12 : "ᴄʜᴇᴄᴋɪɴɢ ʜᴇʀᴏᴋᴜ Ishlatilinishi...ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ !"
+heroku_13 : "ᴄʜᴇᴄᴋɪɴɢ ꜰᴏʀ ᴀᴠᴀɪʟᴀʙʟᴇ Yangiliklar..."
 heroku_14 : "ɢɪᴛ ᴄᴏᴍᴍᴀɴᴅ ᴇʀʀᴏʀ."
 heroku_15 : "ɪɴᴠᴀʟɪᴅ ɢɪᴛ ʀᴇᴘsɪᴛᴏʀʏ."
 
 #Private bot mode
-pbot_1 : "**ᴜsᴀɢᴇ:**\n/authorize [CHAT_ID]"
-pbot_2 :  "**ᴜsᴀɢᴇ:**\n/unauthorize [CHAT_ID]"
-pbot_3 : "ᴀᴅᴅᴇᴅ ɢɪᴠᴇɴ ᴄʜᴀᴛ ᴛᴏ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪsᴛ."
-pbot_4 : "ʀᴇᴍᴏᴠᴇᴅ ɢɪᴠᴇɴ ᴄʜᴀᴛ ꜰʀᴏᴍ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪsᴛ."
-pbot_5 : "ᴄʜᴀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴛʜᴇ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪsᴛ."
-pbot_6 : "ɴᴏ sᴜᴄʜ ᴄʜᴀᴛ ᴇxɪsᴛs ɪɴ ᴛʜᴇ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪsᴛ."
-pbot_7 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ ᴄʜᴀᴛ_ɪᴅ.\n\nᴍᴀᴋᴇ sᴜʀᴇ ɪᴛs ɴᴜᴍᴇʀɪᴄ ᴀɴᴅ ɪɴ ᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ. ᴅᴏɴ'ᴛ ᴜsᴇ ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʟɪɴᴋs."
-pbot_8 : "ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...ꜰᴇᴛᴄʜɪɴɢ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴄʜᴀᴛs.."
-pbot_9 : "**<b>ꜰᴇᴛᴄʜᴇᴅ ᴄʜᴀᴛs:</b>**\n\n"
-pbot_10 : "ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ"
-pbot_11 : "ɴᴏ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴄʜᴀᴛs ꜰᴏᴜɴᴅ."
-pbot_12 : "ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴍᴏᴅᴇ ɪs ᴅɪsᴀʙʟᴇᴅ.\n\nᴛᴏ ᴜsᴇ ʏᴏᴜʀ ʙᴏᴛ ᴀs ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴇᴛ **ᴘʀɪᴠᴀᴛᴇ_ʙᴏᴛ_ᴍᴏᴅᴇ** = **ᴛʀᴜᴇ**"
-pbot_13 : "\n**<b>ᴜɴꜰᴇᴛᴄʜᴇᴅ ᴄʜᴀᴛs:</b>**\n\n"
+pbot_1 : "**Ishlatilinishi:**\n/authorize [CHAT_ID]"
+pbot_2 :  "**Ishlatilinishi:**\n/unauthorize [CHAT_ID]"
+pbot_3 : "Berilgan chat avtorizatsiya qilindi."
+pbot_4 : "Berilgan chat avtorizatsiyadan olindi."
+pbot_5 : "Chat avvaldan avtorizatsiya qilingan"
+pbot_6 : "Bunday chat mavjud emas."
+pbot_7 : "Chat id ni tekshirib bo'lmadi.\n\nUsername yoki link ishlatmang"
+pbot_8 : "Iltimos kuting avtorizatsiya qilingan chatlar yuklanmoqda."
+pbot_9 : "**<b>Yuklangan chatlar:</b>**\n\n"
+pbot_10 : "Shaxshiy chat"
+pbot_11 : "Avtorizatsiya qilingan chat topilmadi."
+pbot_12 : "Shaxsiy chatda ishlash o'chirildi.\n\n **ᴘʀɪᴠᴀᴛᴇ_ʙᴏᴛ_ᴍᴏᴅᴇ** = **ᴛʀᴜᴇ** orqali shaxsiy chatni faollashtiring!"
+pbot_13 : "\n**<b>Olinmagan chatlar:</b>**\n\n"
 
 
 #Gbanned
-gban_1 : "ʏᴏᴜ ᴄᴀɴ'ᴛ ɢʙᴀɴ ʏᴏᴜʀsᴇʟғ ? ʙʟᴏᴏᴅʏ ɴᴏᴏʙ !"
-gban_2 : "ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ɢʙᴀɴ ᴍʏsᴇʟғ ? ʙʟᴏᴏᴅʏ ᴍᴏᴛʜᴇʀғᴜ*ᴋᴇʀ."
-gban_3 : "ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢʙᴀɴ ᴍʏ ᴇx ?"
-gban_4 : "{0} ɪs ᴀʟʀᴇᴀᴅʏ **ɢʙᴀɴɴᴇᴅ** ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ."
-gban_5 : "🌹 **ɢʟᴏʙᴀʟ ʙᴀɴ ʀᴜɴɴɪɴɢ ᴏɴ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ ʙʏ ᴛᴇᴀᴍ ᴀʟᴇxᴀ**\n\n🌹 **ɢᴀʙᴀɴɴɪɴɢ ᴏɴ {0}**\n\n🌹 **ᴇxᴩᴇᴄᴛᴇᴅ ᴛɪᴍᴇ** : {1}."
-gban_6 : "🌹 **ɢʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴏɴ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ\n\n🌹 **ᴏʀɪɢɪᴏɴ** [ʜᴇʀᴇ](https://t.me/QN_Team_support)\n🌹 ʙᴀɴɴᴇᴅ **{0}** ғʀᴏᴍ **{1}** ᴄʜᴀᴛs\n🌹 **ᴜsᴇʀ ɪᴅ:** `{user.id}`\n🌹 **ɢʙᴀɴɴᴇᴅ ʙʏ ᴛᴇᴀᴍ Qᴜᴇᴇɴ**"
-gban_7 : "{0} ɪs ɴᴏᴛ **ɢʙᴀɴɴᴇᴅ **, ʜᴏᴡ ᴄᴀɴ ɪ ᴜɴɢʙᴀɴ ʜɪᴍ ?"
-gban_8 : "**ᴜɴɢʙᴀɴɴɪɴɢ {0}**\n\nᴇxᴩᴇᴄᴛᴇᴅ ᴛɪᴍᴇ : {1}."
-gban_9 : "🌹 **ᴜɴɢʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴏɴ Qᴜᴇᴇɴ ᴅᴀᴛᴀʙᴀsᴇ\n\n🌹 **ᴏʀɪɢɪᴏɴ** [ʜᴇʀᴇ](https://t.me/QN_Team_support)\n🌹 ᴜɴʙᴀɴɴᴇᴅ **{0}** ɪɴ **{1}** ᴄʜᴀᴛs\n🌹 **ᴜsᴇʀ ɪᴅ:** `{user.id}`\n🌹 **ᴜɴɢʙᴀɴɴᴇᴅ ʙʏ ᴛᴇᴀᴍ Qᴜᴇᴇɴ**"
-gban_10 : "ɴᴏ ᴏɴᴇ ɪs ɢʙᴀɴɴᴇᴅ."
-gban_11 : "ɢᴇᴛᴛɪɴɢ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs ʟɪsᴛ..."
+gban_1 : "O'zizni o'ziz ban qilolmaysiz!"
+gban_2 : "O'zimni ban qilishimni xoxlayapsmi ?"
+gban_3 : "😂😂😂😂😂"
+gban_4 : "{0} avvaldan ban bo'gan."
+gban_5 : "**Machete jamoasida global banlash ketyapti**\n\n**Ban qilish :{0}**\n\n**Taxminiy vaqti** : {1}."
+gban_6 : "**Machete bazasidan ban qilindi\n\n**Yangiliklar:** [shuyerda](https://t.me/machetevcnews)\nBan qilindi **{0}** **{1}** dan ᴄʜᴀᴛs\n**Foydalanuvchi ɪᴅ:** `{user.id}`\n**Machete tomonidan ban qilindi**"
+gban_7 : "{0} ban qilinmaganku qanday unban qilaman?"
+gban_8 : "**Unban qilinmoqda {0}**\n\nTaxminiy vaqt: {1}."
+gban_9 : "**Machete bazasidan bandan olindi\n\n**Yangliklar** [shuyerda](https://t.me/machetevcnews)\nBandan olindi: **{0}** **{1}** da Chatlar\n**Foydalanuvchi ɪᴅ:** `{user.id}`\n**Machete jamoasi tomondan unnabn qilindi**"
+gban_10 : "Hech kim ban olmagan"
+gban_11 : "Ban qilinganlar ro'yxati yuklanmoqda..."
 
 #Suggestions
-sug_0 : "❓**ᴅᴏ ʏᴏᴜ ᴋɴᴏᴡ?**\n\n✅ "
-sug_1 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛᴡᴏ **sᴇᴀʀᴄʜ ᴍᴏᴅᴇs** ɪ.ᴇ. ᴅɪʀᴇᴄᴛ ᴍᴏᴅᴇ ᴀɴᴅ ɪɴʟɪɴᴇ ᴍᴏᴅᴇ.\n\nᴄʜᴀɴɢᴇ ᴍᴏᴅᴇs ᴠɪᴀ /ᴘʟᴀʏᴍᴏᴅᴇ"
-sug_2 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛᴡᴏ **ᴘʟᴀʏ ᴛʏᴘᴇs** ɪ.ᴇ. ᴇᴠᴇʀʏᴏɴᴇ ᴍᴏᴅᴇ ᴀɴᴅ ᴀᴅᴍɪɴs ᴍᴏᴅᴇ.\n\nᴄʜᴀɴɢᴇ ᴍᴏᴅᴇs ᴠɪᴀ /ᴘʟᴀʏᴍᴏᴅᴇ"
-sug_3 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ **ᴄʜᴀɴɴᴇʟs** ᴛᴏᴏ.\n\nsᴇᴛ ᴄʜᴀɴɴᴇʟ_ɪᴅ ᴠɪᴀ /ᴄʜᴀɴɴᴇʟᴘʟᴀʏ ᴀɴᴅ ᴘʟᴀʏ ᴠɪᴀ /ᴄᴘʟᴀʏ "
+sug_0 : "❓**Bilarmidingiz??**\n\n✅ "
+sug_1 : "Musiqani ikki xil tarzda qidirishingiz mumkin to'g'ridan to'g'ri va shaffof tugma ko'rinishida.\n\nRejimlarni almashtirish /ᴘʟᴀʏᴍᴏᴅᴇ"
+sug_2 : "Musiqani ikki xil tarzda ijro etish mumkin hamma rejimi va admin rejimi."
+sug_3 : "Musiqani kanalda ham ijro etish mumkin.\nCHANNEL_ID ni /channelplay buyrug'i orqali o'rnating va /cplay orqali ijro eting!"
 sug_4 : "ɴᴏɴ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏᴏ ʙʏ ᴀᴅᴅɪɴɢ ᴛʜᴇᴍ ᴛᴏ** ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ**. \nᴀᴅᴅ ᴀɴʏ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ʙʏ /ᴀᴜᴛʜ , ʀᴇᴍᴏᴠᴇ ᴡɪᴛʜ /ᴜɴᴀᴜᴛʜ ᴀɴᴅ ᴄʜᴇᴄᴋ ᴀᴜᴛʜ ᴜsᴇʀs ᴠɪᴀ /ᴀᴜᴛʜᴜsᴇʀs"
 sug_5 : "ʙᴏᴛ ʜᴀs ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴄᴀʟʟᴇᴅ **ᴄʟᴇᴀɴ ᴍᴏᴅᴇ**.\nɪᴛ ᴅᴇʟᴇᴛᴇs ᴛʜᴇ ʙᴏᴛ's ᴍᴇssᴀɢᴇs ᴀꜰᴛᴇʀ 5 ᴍɪɴs ᴀɴᴅ ᴇɴsᴜʀᴇs ᴛʜᴀᴛ  ʏᴏᴜʀ ᴄʜᴀᴛ ʀᴇᴍᴀɪɴs ᴄʟᴇᴀɴ.\n\nᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴄʟᴇᴀɴᴍᴏᴅᴇ ꜰʀᴏᴍ /sᴇᴛᴛɪɴɢs [__ᴇɴᴀʙʟᴇᴅ ʙʏ ᴅᴇꜰᴀᴜʟᴛ__]"
-sug_6 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **sᴘᴏᴛɪꜰʏ** ᴛʀᴀᴄᴋs ᴀɴᴅ ᴘʟᴀʏʟɪsᴛs ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [sᴘᴏᴛɪꜰʏ ʟɪɴᴋ]"
-sug_7 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ** ᴛʀᴀᴄᴋs ᴀɴᴅ ᴘʟᴀʏʟɪsᴛs ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [ᴀᴘᴘʟᴇ ʟɪɴᴋ]"
-sug_8 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **ʀᴇssᴏ ᴍᴜsɪᴄ** ᴛʀᴀᴄᴋs ᴀɴᴅ ᴘʟᴀʏʟɪsᴛs ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [ʀᴇssᴏ ʟɪɴᴋ]"
-sug_9 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **sᴏᴜɴᴅ ᴄʟᴏᴜᴅ** ᴛʀᴀᴄᴋs ᴀɴᴅ ᴘʟᴀʏʟɪsᴛs ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [sᴏᴜɴᴅᴄʟᴏᴜᴅ ʟɪɴᴋ]"
+sug_6 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **sᴘᴏᴛɪꜰʏ** ᴛʀᴀᴄᴋs ᴀɴᴅ Pleylists ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [sᴘᴏᴛɪꜰʏ ʟɪɴᴋ]"
+sug_7 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ** ᴛʀᴀᴄᴋs ᴀɴᴅ Pleylists ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [ᴀᴘᴘʟᴇ ʟɪɴᴋ]"
+sug_8 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **ʀᴇssᴏ ᴍᴜsɪᴄ** ᴛʀᴀᴄᴋs ᴀɴᴅ Pleylists ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [ʀᴇssᴏ ʟɪɴᴋ]"
+sug_9 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **sᴏᴜɴᴅ ᴄʟᴏᴜᴅ** ᴛʀᴀᴄᴋs ᴀɴᴅ Pleylists ᴛᴏᴏ.\n\nsᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɴᴏᴡ ᴡɪᴛʜ /ᴘʟᴀʏ [sᴏᴜɴᴅᴄʟᴏᴜᴅ ʟɪɴᴋ]"
 sug_10 : "ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ **ᴠɪᴅᴇᴏs** ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴠɪᴀ /ᴠᴘʟᴀʏ [ᴠɪᴅᴇᴏ ɴᴀᴍᴇ] ᴏʀ /ᴘʟᴀʏ -ᴠ [ᴠɪᴅᴇᴏ ɴᴀᴍᴇ]"
 sug_11 : "ʏᴏᴜ ᴄᴀɴ sᴇᴛ **ᴀᴜᴅɪᴏ ǫᴜᴀʟɪᴛʏ** ᴏꜰ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴛᴏ ʟᴏᴡ, ᴍᴇᴅɪᴜᴍ ᴏʀ ʜɪɢʜ.\n\nsᴇᴛ ǫᴜᴀʟɪᴛʏ ᴠɪᴀ /sᴇᴛᴛɪɴɢs"
 sug_12 : "ʏᴏᴜ ᴄᴀɴ sᴇᴛ **ᴠɪᴅᴇᴏ ǫᴜᴀʟɪᴛʏ** ᴏꜰ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴛᴏ ʟᴏᴡ, ᴍᴇᴅɪᴜᴍ ᴏʀ ʜɪɢʜ.\n\nsᴇᴛ ǫᴜᴀʟɪᴛʏ ᴠɪᴀ /sᴇᴛᴛɪɴɢs"
@@ -461,7 +527,7 @@ sug_17 : "ʏᴏᴜ ᴄᴀɴ ɴᴏᴡ ᴜɴᴍᴜᴛᴇ ᴀɴᴅ ᴍᴜᴛᴇ ᴛ
 sug_18 : "ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ᴛʜᴇ ʟʏʀɪᴄs ᴏꜰ ᴍᴜsɪᴄs ᴡɪᴛʜ ᴜs ᴛᴏᴏ..\n\nᴄᴏᴍᴍᴀɴᴅ: /ʟʏʀɪᴄs [ᴍᴜsɪᴄ ɴᴀᴍᴇ]"
 sug_19 : "ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴍᴜsɪᴄ ᴏʀ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ ᴛʜʀᴏᴜɢʜ ʏᴏᴜᴛᴜʙᴇ.\n\nᴄᴏᴍᴍᴀɴᴅ: /sᴏɴɢ [ᴍᴜsɪᴄ ɴᴀᴍᴇ]"
 sug_20 : "ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀ ᴄᴏᴍᴘʟᴇᴛᴇ ʟɪsᴛ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴛʜᴀᴛ ɪ ᴀᴄᴄᴇᴘᴛ.\n\nᴄᴏᴍᴍᴀɴᴅ: /ʜᴇʟᴘ"
-sug_21 : "ʙᴏᴛ ʜᴀs sᴇʀᴠᴇʀ-sɪᴅᴇᴅ ᴘʟᴀʏʟɪsᴛ ᴏᴘᴛɪᴏɴ.\n\nʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ ᴀɴᴅ ᴘʟᴀʏ ᴛʜᴇᴍ ᴀʟʟ ᴛᴏɢᴇᴛʜᴇʀ ᴠɪᴀ /ᴘʟᴀʏ"
+sug_21 : "ʙᴏᴛ ʜᴀs sᴇʀᴠᴇʀ-sɪᴅᴇᴅ Pleylist ᴏᴘᴛɪᴏɴ.\n\nʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ Pleylist ᴀɴᴅ ᴘʟᴀʏ ᴛʜᴇᴍ ᴀʟʟ ᴛᴏɢᴇᴛʜᴇʀ ᴠɪᴀ /ᴘʟᴀʏ"
 sug_22 : "ʏᴏᴜ ᴄᴀɴ ɴᴏᴡ sʜᴜꜰꜰʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴍᴜsɪᴄs ᴏɴ ᴛʜᴇ ʙᴏᴛ.\n\nᴄᴏᴍᴍᴀɴᴅ: /sʜᴜꜰꜰʟᴇ"
 sug_23 : "ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴛʜᴇ ǫᴜᴇᴜᴇ ᴏꜰ ᴛʜᴇ ᴍᴜsɪᴄs.\n\nᴄᴏᴍᴍᴀɴᴅ: /ǫᴜᴇᴜᴇ"
 sug_24 : "ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴍʏ ᴏᴡɴᴇʀ ᴀɴᴅ sᴜᴅᴏ ᴜsᴇʀs ᴡʜᴏ ᴍᴀɴᴀɢᴇ ᴍᴇ.\n\nᴄᴏᴍᴍᴀɴᴅ: /sᴜᴅᴏʟɪsᴛ"
